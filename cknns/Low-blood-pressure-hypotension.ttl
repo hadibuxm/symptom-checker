@@ -1,0 +1,53 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Ionizing_radiation> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> .
+
+<http://dbpedia.org/page/Torah_reading> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> .
+
+<http://dbpedia.org/page/Blurred_vision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> .
+
+<http://dbpedia.org/page/Hypotension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lightheadedness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Orthostatic_hypotension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> .
+
+<https://www.nhs.uk/conditions/Low-blood-pressure-hypotension> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Parent> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Blurred_vision>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Hypotension>,
+        <http://dbpedia.org/page/Lightheadedness>,
+        <http://dbpedia.org/page/Orthostatic_hypotension>,
+        <http://dbpedia.org/page/Schizophrenia> ;
+    ns2:sameAs <http://dbpedia.org/page/Low_blood_pressure_hypotension> .
+

@@ -1,0 +1,71 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Active_listening> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Psychotherapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Aggression> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Antisocial_personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Atmospheric_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Borderline_personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Domestic_violence> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Frustration> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Mental_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mood_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neglect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Personality> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Personality-disorder> .
+
+<http://dbpedia.org/page/Substance_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Personality-disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Childhood>,
+        <http://dbpedia.org/page/Frustration>,
+        <http://dbpedia.org/page/Personality> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Aggression>,
+        <http://dbpedia.org/page/Antisocial_personality_disorder>,
+        <http://dbpedia.org/page/Atmospheric_pressure>,
+        <http://dbpedia.org/page/Borderline_personality_disorder>,
+        <http://dbpedia.org/page/Domestic_violence>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Mental_disorder>,
+        <http://dbpedia.org/page/Mood_disorder>,
+        <http://dbpedia.org/page/Neglect>,
+        <http://dbpedia.org/page/Personality_disorder>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Substance_abuse> ;
+    ns2:sameAs <http://dbpedia.org/page/Personality_disorder> .
+

@@ -1,0 +1,278 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Dental_extraction> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/General_anaesthetic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/HIV> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Light> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Radiation_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Rectal_examination> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Thalidomide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/While> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Adaptation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Anal_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anal_fissure> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Buttocks> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Catheter> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cervical_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Colostomy> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fatigue_(medical)> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fecal_incontinence> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Finger> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Gland> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Groin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hair_loss> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hemorrhoid> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_papillomavirus_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Infertility> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Large_intestine> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Leaf> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lymph_node> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Male> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Metastasis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mucus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Penis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Plastic_surgery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pubic_hair> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Randomness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rectal_bleeding> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Rectal_discharge> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rectum> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Scrotum> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sex> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stiffness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Tapeworm_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Tears> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Thin_film> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Urinary_bladder> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vagina> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Voltage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Vulva> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vulvar_cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Anal-cancer> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Xeroderma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Anal-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Anus>,
+        <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Blood_cell>,
+        <http://dbpedia.org/page/Buttocks>,
+        <http://dbpedia.org/page/Catheter>,
+        <http://dbpedia.org/page/Colostomy>,
+        <http://dbpedia.org/page/Finger>,
+        <http://dbpedia.org/page/Gland>,
+        <http://dbpedia.org/page/Groin>,
+        <http://dbpedia.org/page/Head>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Large_intestine>,
+        <http://dbpedia.org/page/Leaf>,
+        <http://dbpedia.org/page/Lymph_node>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Penis>,
+        <http://dbpedia.org/page/Plastic_surgery>,
+        <http://dbpedia.org/page/Pubic_hair>,
+        <http://dbpedia.org/page/Rectum>,
+        <http://dbpedia.org/page/Scrotum>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thin_film>,
+        <http://dbpedia.org/page/Urinary_bladder>,
+        <http://dbpedia.org/page/Vagina>,
+        <http://dbpedia.org/page/Vulva> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Male>,
+        <http://dbpedia.org/page/Sex>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adaptation>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Anal_cancer>,
+        <http://dbpedia.org/page/Anal_fissure>,
+        <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Cervical_cancer>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Fatigue_(medical)>,
+        <http://dbpedia.org/page/Fecal_incontinence>,
+        <http://dbpedia.org/page/Hair_loss>,
+        <http://dbpedia.org/page/Hemorrhoid>,
+        <http://dbpedia.org/page/Human_papillomavirus_infection>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Infertility>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Metastasis>,
+        <http://dbpedia.org/page/Mucus>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Randomness>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Rectal_bleeding>,
+        <http://dbpedia.org/page/Rectal_discharge>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Stiffness>,
+        <http://dbpedia.org/page/Tapeworm_infection>,
+        <http://dbpedia.org/page/Tears>,
+        <http://dbpedia.org/page/Voltage>,
+        <http://dbpedia.org/page/Vulvar_cancer>,
+        <http://dbpedia.org/page/Xeroderma> ;
+    ns2:sameAs <http://dbpedia.org/page/Anal-cancer> .
+

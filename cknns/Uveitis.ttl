@@ -1,0 +1,121 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Eye_drop> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Focusing> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Light> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Medroxyprogesterone_acetate> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Pharmacotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Traditional_Chinese_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Blurred_vision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cataract> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Floater> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Glaucoma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hyperaemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Middle_ear> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Photophobia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Psychokinesis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Retinal_detachment> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Uvea> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Visual_perception> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Uveitis> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weather_front> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Uveitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Uveitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_eye>,
+        <http://dbpedia.org/page/Middle_ear>,
+        <http://dbpedia.org/page/Uvea>,
+        <http://dbpedia.org/page/Weather_front> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Inflammation> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Blurred_vision>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cataract>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Floater>,
+        <http://dbpedia.org/page/Glaucoma>,
+        <http://dbpedia.org/page/Hyperaemia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Photophobia>,
+        <http://dbpedia.org/page/Psychokinesis>,
+        <http://dbpedia.org/page/Retinal_detachment>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Uveitis>,
+        <http://dbpedia.org/page/Visual_perception> ;
+    ns2:sameAs <http://dbpedia.org/page/Uveitis> .
+

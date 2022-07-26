@@ -1,0 +1,103 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Autism_therapies> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Cognitive_behavioral_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Occupational_therapist> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Occupational_therapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Physical_examination> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Psychotherapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Adolescence> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Alcohol_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Attention_deficit_hyperactivity_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Developmental_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Disability> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Emotional_and_behavioral_disorders> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Intellectual_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Learning_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Preterm_birth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Sleep_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> .
+
+<http://dbpedia.org/page/Substance_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder-adhd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Human_brain> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adolescence>,
+        <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Parent> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Alcohol_abuse>,
+        <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Anxiety_disorder>,
+        <http://dbpedia.org/page/Attention_deficit_hyperactivity_disorder>,
+        <http://dbpedia.org/page/Developmental_disorder>,
+        <http://dbpedia.org/page/Disability>,
+        <http://dbpedia.org/page/Emotional_and_behavioral_disorders>,
+        <http://dbpedia.org/page/Intellectual_disability>,
+        <http://dbpedia.org/page/Learning_disability>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Preterm_birth>,
+        <http://dbpedia.org/page/Sleep_disorder>,
+        <http://dbpedia.org/page/Substance_abuse> ;
+    ns2:sameAs <http://dbpedia.org/page/Attention_deficit_hyperactivity_disorder_adhd> .
+

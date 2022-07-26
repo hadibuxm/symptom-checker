@@ -1,0 +1,112 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Carmustine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Cochlear_implant> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Prosthesis> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Radiation_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Radiosurgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Wafer> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Benign_tumor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain_tumor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cataract> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Epilepsy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/External_carotid_artery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Glioma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Language> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Personality> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Skull> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thomas_More> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Visual_perception> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<http://dbpedia.org/page/Vomiting> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Malignant-brain-tumour> .
+
+<https://www.nhs.uk/conditions/Malignant-brain-tumour> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/External_carotid_artery>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Skull> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Personality>,
+        <http://dbpedia.org/page/Thomas_More> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Vomiting> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Benign_tumor>,
+        <http://dbpedia.org/page/Brain_tumor>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Cataract>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Epilepsy>,
+        <http://dbpedia.org/page/Glioma>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Language>,
+        <http://dbpedia.org/page/Personality_disorder>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Visual_perception>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns2:sameAs <http://dbpedia.org/page/Malignant_brain_tumour> .
+

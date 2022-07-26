@@ -1,0 +1,130 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Autumn> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Cauterization> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Determine> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Fluorouracil> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Imiquimod> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Laser_surgery> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Liquid_nitrogen> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Local_anesthetic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Organ_transplantation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Photodynamic_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Proper_morphism> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Dermatitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Genital_wart> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Groin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_papillomavirus_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neck> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Penis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Psoriasis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Wart> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bowens-disease> .
+
+<https://www.nhs.uk/conditions/Bowens-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Groin>,
+        <http://dbpedia.org/page/Head>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Neck>,
+        <http://dbpedia.org/page/Penis>,
+        <http://dbpedia.org/page/Skin> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Dermatitis>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Genital_wart>,
+        <http://dbpedia.org/page/Human_papillomavirus_infection>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Psoriasis>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Wart> ;
+    ns2:sameAs <http://dbpedia.org/page/Bowens_disease> .
+

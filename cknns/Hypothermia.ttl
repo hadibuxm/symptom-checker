@@ -1,0 +1,80 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Winter> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Hypothermia> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hypothermia> .
+
+<http://dbpedia.org/page/Atmosphere_of_Earth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Clothing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cold> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hypothermia> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hypothermia> .
+
+<http://dbpedia.org/page/Heat_illness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body_temperature> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hyperkalemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Medical_emergency> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hypothermia> .
+
+<http://dbpedia.org/page/Pallor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tachypnea> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Window> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypothermia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Hypothermia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Atmosphere_of_Earth>,
+        <http://dbpedia.org/page/Clothing>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Window> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Infant> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Human_body_temperature> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cold>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Heat_illness>,
+        <http://dbpedia.org/page/Hyperkalemia>,
+        <http://dbpedia.org/page/Hypothermia>,
+        <http://dbpedia.org/page/Medical_emergency>,
+        <http://dbpedia.org/page/Pallor>,
+        <http://dbpedia.org/page/Tachypnea> ;
+    ns2:sameAs <http://dbpedia.org/page/Hypothermia> .
+

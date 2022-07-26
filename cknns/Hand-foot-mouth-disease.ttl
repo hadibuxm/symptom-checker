@@ -1,0 +1,61 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix ns2: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Hand-foot-mouth-disease> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Hand-foot-mouth-disease> .
+
+<http://dbpedia.org/page/Foot> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mouth_ulcer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rash> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Hand-foot-mouth-disease> .
+
+<http://dbpedia.org/page/Sore_throat> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Hand-foot-mouth-disease> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Hand-foot-mouth-disease> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Hand-foot-mouth-disease> .
+
+<https://www.nhs.uk/conditions/Hand-foot-mouth-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causeOnAnatomicStructure <http://dbpedia.org/page/Foot>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Throat> ;
+    ns2:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Childhood> ;
+    ns2:causesSymptom <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Mouth_ulcer>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Rash>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sore_throat>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Ulcer> ;
+    ns1:sameAs <http://dbpedia.org/page/Hand_foot_mouth_disease> .
+

@@ -1,0 +1,76 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Assisted_reproductive_technology> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Irregular-periods> .
+
+<http://dbpedia.org/page/Hormonal_contraception> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Irregular-periods> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Irregular-periods> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Difference> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysmenorrhea> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Egg_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hyperprolactinaemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Menopause> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Irregular-periods> .
+
+<http://dbpedia.org/page/Menorrhagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Miscarriage> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ovulation> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Polycystic_ovary_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Puberty> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Irregular-periods> .
+
+<http://dbpedia.org/page/Sex> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Thyroid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weight_gain> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Irregular-periods> .
+
+<https://www.nhs.uk/conditions/Irregular-periods> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Egg_cell>,
+        <http://dbpedia.org/page/Ovulation>,
+        <http://dbpedia.org/page/Thyroid> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Puberty>,
+        <http://dbpedia.org/page/Sex>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Difference>,
+        <http://dbpedia.org/page/Dysmenorrhea>,
+        <http://dbpedia.org/page/Hyperprolactinaemia>,
+        <http://dbpedia.org/page/Menopause>,
+        <http://dbpedia.org/page/Menorrhagia>,
+        <http://dbpedia.org/page/Miscarriage>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Polycystic_ovary_syndrome>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Weight_gain> ;
+    ns2:sameAs <http://dbpedia.org/page/Irregular_periods> .
+

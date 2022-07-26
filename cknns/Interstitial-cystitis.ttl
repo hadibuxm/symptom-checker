@@ -1,0 +1,102 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Cystoscopy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Proper_morphism> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Allergy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Chronic_fatigue_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fibromyalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Irritable_bowel_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mouth_ulcer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pelvic_floor> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pelvic_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Stiffness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Interstitial-cystitis> .
+
+<http://dbpedia.org/page/Synovial_membrane> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Systemic_lupus_erythematosus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Urinary_bladder> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Urinary_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Urinary_tract_infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Interstitial_cystitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Interstitial-cystitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Pelvic_floor>,
+        <http://dbpedia.org/page/Synovial_membrane>,
+        <http://dbpedia.org/page/Urinary_bladder>,
+        <http://dbpedia.org/page/Urinary_system> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Allergy>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Chronic_fatigue_syndrome>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Fibromyalgia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Interstitial_cystitis>,
+        <http://dbpedia.org/page/Irritable_bowel_syndrome>,
+        <http://dbpedia.org/page/Mouth_ulcer>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pelvic_pain>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Stiffness>,
+        <http://dbpedia.org/page/Systemic_lupus_erythematosus>,
+        <http://dbpedia.org/page/Urinary_tract_infection> ;
+    ns2:sameAs <http://dbpedia.org/page/Interstitial_cystitis> .
+

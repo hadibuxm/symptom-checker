@@ -1,0 +1,215 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Antiviral_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Japanese_encephalitis_vaccine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Local_anesthetic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/MMR_vaccine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Mechanical_ventilation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Mosquito> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Oxygen_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Tick> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Traditional_Chinese_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Vaccine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Amniotic_fluid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Attention_deficit_hyperactivity_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body_fluid> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Central_nervous_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chickenpox> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Convulsion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Epileptic_seizure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Frustration> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Herpes_labialis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Herpes_simplex> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Influenza-like_illness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Japanese_encephalitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Kingdom_of_England> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Knee> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lumbar_puncture> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Measles> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mumps> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Personality> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rabies> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rubella> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Scalp> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Social_support> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Tapeworm_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Thomas_More> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Tick-borne_encephalitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Urine> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Viral_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Encephalitis> .
+
+<http://dbpedia.org/page/Encephalitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Encephalitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Amniotic_fluid>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Central_nervous_system>,
+        <http://dbpedia.org/page/Chin>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Knee>,
+        <http://dbpedia.org/page/Lumbar_puncture>,
+        <http://dbpedia.org/page/Scalp> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Frustration>,
+        <http://dbpedia.org/page/Kingdom_of_England>,
+        <http://dbpedia.org/page/Personality>,
+        <http://dbpedia.org/page/Thomas_More> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Body_fluid>,
+        <http://dbpedia.org/page/Urine> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Attention_deficit_hyperactivity_disorder>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Chickenpox>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Convulsion>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Encephalitis>,
+        <http://dbpedia.org/page/Epileptic_seizure>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Herpes_labialis>,
+        <http://dbpedia.org/page/Herpes_simplex>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Influenza-like_illness>,
+        <http://dbpedia.org/page/Japanese_encephalitis>,
+        <http://dbpedia.org/page/Measles>,
+        <http://dbpedia.org/page/Mumps>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Personality_disorder>,
+        <http://dbpedia.org/page/Rabies>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Rubella>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Social_support>,
+        <http://dbpedia.org/page/Tapeworm_infection>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Tick-borne_encephalitis>,
+        <http://dbpedia.org/page/Viral_disease>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns2:sameAs <http://dbpedia.org/page/Encephalitis> .
+

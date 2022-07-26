@@ -1,0 +1,61 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Contact-dermatitis> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cotton> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Dermatitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Contact-dermatitis> .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Irritant_contact_dermatitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Contact-dermatitis> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Perspiration> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Xeroderma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Contact_dermatitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Contact-dermatitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Cotton>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Skin> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Perspiration> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Contact_dermatitis>,
+        <http://dbpedia.org/page/Dermatitis>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Irritant_contact_dermatitis>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Xeroderma> ;
+    ns2:sameAs <http://dbpedia.org/page/Contact_dermatitis> .
+

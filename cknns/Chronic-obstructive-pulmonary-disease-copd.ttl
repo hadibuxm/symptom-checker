@@ -1,0 +1,161 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Chest_radiograph> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Inhaler> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Medical_device> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Medical_ultrasound> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Oxygen_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Pulmonary_rehabilitation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Spirometry> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Stethoscope> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain_damage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Chronic_obstructive_pulmonary_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Finger> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Likelihood_function> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lung_transplantation> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Phlegm> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Progressive_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Sexually_transmitted_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Shortness_of_breath> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Social_support> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Sputum> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Stenosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Tapeworm_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Volcano> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> .
+
+<http://dbpedia.org/page/Wheeze> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Chronic-obstructive-pulmonary-disease-copd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Finger>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Lung_transplantation>,
+        <http://dbpedia.org/page/Thorax> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Phlegm> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Brain_damage>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Chronic_obstructive_pulmonary_disease>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Likelihood_function>,
+        <http://dbpedia.org/page/Progressive_disease>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Sexually_transmitted_infection>,
+        <http://dbpedia.org/page/Shortness_of_breath>,
+        <http://dbpedia.org/page/Social_support>,
+        <http://dbpedia.org/page/Sputum>,
+        <http://dbpedia.org/page/Stenosis>,
+        <http://dbpedia.org/page/Tapeworm_infection>,
+        <http://dbpedia.org/page/Volcano>,
+        <http://dbpedia.org/page/Wheeze> ;
+    ns2:sameAs <http://dbpedia.org/page/Chronic_obstructive_pulmonary_disease_copd> .
+

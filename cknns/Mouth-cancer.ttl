@@ -1,0 +1,190 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Chewing_tobacco> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Citrus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Dental_extraction> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Radiation_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Scotch_whisky> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Tomato> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Alcohol_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Aspiration_pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breast_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Dental_alveolus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Epithelium> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Genital_wart> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_papillomavirus_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Lead_poisoning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Light_beam> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lip> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lisp> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Male> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mouth_ulcer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neck> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nevus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Only_(Nine_Inch_Nails_song)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Oral_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Oropharyngeal_cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Papilloma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paresthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Senescence> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Shortness_of_breath> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thomas_More> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Tongue> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Toothache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<http://dbpedia.org/page/Wart> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mouth-cancer> .
+
+<https://www.nhs.uk/conditions/Mouth-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood_cell>,
+        <http://dbpedia.org/page/Dental_alveolus>,
+        <http://dbpedia.org/page/Epithelium>,
+        <http://dbpedia.org/page/Light_beam>,
+        <http://dbpedia.org/page/Lip>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Neck>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Tongue> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Male>,
+        <http://dbpedia.org/page/Only_(Nine_Inch_Nails_song)>,
+        <http://dbpedia.org/page/Thomas_More> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Alcohol_abuse>,
+        <http://dbpedia.org/page/Aspiration_pneumonia>,
+        <http://dbpedia.org/page/Breast_cancer>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Genital_wart>,
+        <http://dbpedia.org/page/Human_papillomavirus_infection>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Lead_poisoning>,
+        <http://dbpedia.org/page/Lisp>,
+        <http://dbpedia.org/page/Mouth_ulcer>,
+        <http://dbpedia.org/page/Nevus>,
+        <http://dbpedia.org/page/Oral_cancer>,
+        <http://dbpedia.org/page/Oropharyngeal_cancer>,
+        <http://dbpedia.org/page/Papilloma>,
+        <http://dbpedia.org/page/Paresthesia>,
+        <http://dbpedia.org/page/Pneumonia>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Senescence>,
+        <http://dbpedia.org/page/Shortness_of_breath>,
+        <http://dbpedia.org/page/Toothache>,
+        <http://dbpedia.org/page/Ulcer>,
+        <http://dbpedia.org/page/Wart> ;
+    ns2:sameAs <http://dbpedia.org/page/Mouth_cancer> .
+

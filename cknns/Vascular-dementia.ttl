@@ -1,0 +1,141 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Amphetamine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Civility> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Occupational_therapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Pharmacotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Psychotherapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Typical_antipsychotic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Alzheimer's_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain_damage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Brain_ischemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Dementia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypertension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ischemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Language> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Lifestyle_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Overweight> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Personality> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Physical_therapy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Stenosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Transient_ischemic_attack> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vascular-dementia> .
+
+<http://dbpedia.org/page/Vascular_dementia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Vascular-dementia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Human_brain> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Personality> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Alzheimer's_disease>,
+        <http://dbpedia.org/page/Brain_damage>,
+        <http://dbpedia.org/page/Brain_ischemia>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Dementia>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Hypertension>,
+        <http://dbpedia.org/page/Ischemia>,
+        <http://dbpedia.org/page/Language>,
+        <http://dbpedia.org/page/Lifestyle_disease>,
+        <http://dbpedia.org/page/Overweight>,
+        <http://dbpedia.org/page/Physical_therapy>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Stenosis>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Transient_ischemic_attack>,
+        <http://dbpedia.org/page/Vascular_dementia> ;
+    ns2:sameAs <http://dbpedia.org/page/Vascular_dementia> .
+

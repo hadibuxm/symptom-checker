@@ -1,0 +1,274 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix ns2: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Anticoagulant> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Aspirin> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Combination_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Heparin> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Hyperbaric_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns2:treatmentTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Meat_tenderness> a <http://dbpedia.org/page/Therapy> ;
+    ns2:treatmentTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Scalloped_hammerhead> a <http://dbpedia.org/ontology/Species> ;
+    ns2:SpeciesCausesTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns2:HabitCausesTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns2:treatmentTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Teaspoon> a <http://dbpedia.org/page/Therapy> ;
+    ns2:treatmentTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns2:HabitCausesTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Warfarin> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Acute_limb_ischaemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Alcohol_intoxication> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Amniotic_fluid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Artery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Atherosclerosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Atmosphere_of_Earth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Attenuation> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone_fracture> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Decompression_sickness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Deep_vein_thrombosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dietary_fiber> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Dizziness> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Edema> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Erythema> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Foreign_body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fracture> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Higher_education> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_leg> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Knee> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lightheadedness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Long_bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mother> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Obesity> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Overweight> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paresthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pleurisy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pulmonary_embolism> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Shortness_of_breath> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Side_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stabbing> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Stenosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thrombolysis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thrombosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Thrombus> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Triceps_surae_muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vein> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Embolism> .
+
+<http://dbpedia.org/page/Embolism> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Embolism> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causeOnAnatomicStructure <http://dbpedia.org/page/Amniotic_fluid>,
+        <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Artery>,
+        <http://dbpedia.org/page/Atmosphere_of_Earth>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Dietary_fiber>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_leg>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Knee>,
+        <http://dbpedia.org/page/Long_bone>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thorax>,
+        <http://dbpedia.org/page/Thrombolysis>,
+        <http://dbpedia.org/page/Triceps_surae_muscle>,
+        <http://dbpedia.org/page/Vein> ;
+    ns2:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Higher_education>,
+        <http://dbpedia.org/page/Infant>,
+        <http://dbpedia.org/page/Mother>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns2:causesSymptom <http://dbpedia.org/page/Acute_limb_ischaemia>,
+        <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Alcohol_intoxication>,
+        <http://dbpedia.org/page/Atherosclerosis>,
+        <http://dbpedia.org/page/Attenuation>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Bone_fracture>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Decompression_sickness>,
+        <http://dbpedia.org/page/Deep_vein_thrombosis>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dizziness>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Edema>,
+        <http://dbpedia.org/page/Embolism>,
+        <http://dbpedia.org/page/Erythema>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Foreign_body>,
+        <http://dbpedia.org/page/Fracture>,
+        <http://dbpedia.org/page/Lightheadedness>,
+        <http://dbpedia.org/page/Obesity>,
+        <http://dbpedia.org/page/Overweight>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Paresthesia>,
+        <http://dbpedia.org/page/Pleurisy>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Pulmonary_embolism>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Shortness_of_breath>,
+        <http://dbpedia.org/page/Side_effect>,
+        <http://dbpedia.org/page/Stabbing>,
+        <http://dbpedia.org/page/Stenosis>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Thrombosis>,
+        <http://dbpedia.org/page/Thrombus>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns1:sameAs <http://dbpedia.org/page/Embolism> .
+

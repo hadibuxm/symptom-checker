@@ -1,0 +1,98 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Artery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Atherosclerosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lifestyle_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Myocardial_infarction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neck> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Stenosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Unstable_angina> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Angina> .
+
+<https://www.nhs.uk/conditions/Angina> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Artery>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Neck>,
+        <http://dbpedia.org/page/Thorax> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Atherosclerosis>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Lifestyle_disease>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Myocardial_infarction>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Stenosis>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Unstable_angina> ;
+    ns2:sameAs <http://dbpedia.org/page/Angina> .
+

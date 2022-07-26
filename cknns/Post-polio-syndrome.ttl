@@ -1,0 +1,149 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Poliovirus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Scotch_whisky> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Spirometry> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Tomography> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Alzheimer's_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arthralgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Creativity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fatigue_(medical)> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lead_poisoning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Learning> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Management> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle_weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Poliomyelitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Resonance> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Shortness_of_breath> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Sleep_apnea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Spinal_cord> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tapeworm_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Post-polio-syndrome> .
+
+<https://www.nhs.uk/conditions/Post-polio-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Spinal_cord> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Learning>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Alzheimer's_disease>,
+        <http://dbpedia.org/page/Arthralgia>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Creativity>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Fatigue_(medical)>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Lead_poisoning>,
+        <http://dbpedia.org/page/Management>,
+        <http://dbpedia.org/page/Muscle_weakness>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Poliomyelitis>,
+        <http://dbpedia.org/page/Resonance>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Shortness_of_breath>,
+        <http://dbpedia.org/page/Sleep_apnea>,
+        <http://dbpedia.org/page/Tapeworm_infection>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns2:sameAs <http://dbpedia.org/page/Post_polio_syndrome> .
+

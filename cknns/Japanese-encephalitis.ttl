@@ -1,0 +1,164 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Common_tern> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Mosquito> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Oxygen_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Sock> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Sri> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Trousers> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Vaccine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Animal_bite> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Epileptic_seizure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Essential_tremor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Intellectual_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neck> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Paralysis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Personality> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Snakebite> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Speech_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Tic> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Tremor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Viral_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Japanese-encephalitis> .
+
+<http://dbpedia.org/page/Window> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Japanese_encephalitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Japanese-encephalitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Neck>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Window> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Personality> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Animal_bite>,
+        <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Epileptic_seizure>,
+        <http://dbpedia.org/page/Essential_tremor>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Intellectual_disability>,
+        <http://dbpedia.org/page/Japanese_encephalitis>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Paralysis>,
+        <http://dbpedia.org/page/Personality_disorder>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Snakebite>,
+        <http://dbpedia.org/page/Speech_disorder>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Tic>,
+        <http://dbpedia.org/page/Tremor>,
+        <http://dbpedia.org/page/Viral_disease> ;
+    ns2:sameAs <http://dbpedia.org/page/Japanese_encephalitis> .
+

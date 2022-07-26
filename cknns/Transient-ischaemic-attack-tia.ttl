@@ -1,0 +1,120 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Reuptake_inhibitor> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Artery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Atrial_fibrillation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cardiac_arrhythmia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Carotid_endarterectomy> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Endarterectomy> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fibrillation> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hemiparesis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Higher_education> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypertension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hypoesthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lifestyle_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Obesity> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Transient_ischemic_attack> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> .
+
+<https://www.nhs.uk/conditions/Transient-ischaemic-attack-tia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Artery>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Carotid_endarterectomy>,
+        <http://dbpedia.org/page/Endarterectomy>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Fibrillation>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_eye>,
+        <http://dbpedia.org/page/Mouth> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Higher_education> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Atrial_fibrillation>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cardiac_arrhythmia>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Heartbeat>,
+        <http://dbpedia.org/page/Hemiparesis>,
+        <http://dbpedia.org/page/Hypertension>,
+        <http://dbpedia.org/page/Hypoesthesia>,
+        <http://dbpedia.org/page/Lifestyle_disease>,
+        <http://dbpedia.org/page/Obesity>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Transient_ischemic_attack>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns2:sameAs <http://dbpedia.org/page/Transient_ischaemic_attack_tia> .
+

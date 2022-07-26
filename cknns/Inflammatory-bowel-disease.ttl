@@ -1,0 +1,150 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Azathioprine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Immunosuppression> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Pharmacotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Anemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arthritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ascending_cholangitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blister> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Colitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Colorectal_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Conjunctivitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cramp> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/DNA_repair> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Dysmenorrhea> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erythema> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fatigue_(medical)> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Gastrointestinal_tract> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Jaundice> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Large_intestine> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nausea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Primary_sclerosing_cholangitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Ulcerative_colitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Uveitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Vomiting> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Inflammatory-bowel-disease> .
+
+<http://dbpedia.org/page/Inflammatory_bowel_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Inflammatory-bowel-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Cramp>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Gastrointestinal_tract>,
+        <http://dbpedia.org/page/Large_intestine>,
+        <http://dbpedia.org/page/Skin> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/DNA_repair>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Inflammation>,
+        <http://dbpedia.org/page/Vomiting> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Anemia>,
+        <http://dbpedia.org/page/Arthritis>,
+        <http://dbpedia.org/page/Ascending_cholangitis>,
+        <http://dbpedia.org/page/Blister>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Colitis>,
+        <http://dbpedia.org/page/Colorectal_cancer>,
+        <http://dbpedia.org/page/Conjunctivitis>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysmenorrhea>,
+        <http://dbpedia.org/page/Erythema>,
+        <http://dbpedia.org/page/Fatigue_(medical)>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Inflammatory_bowel_disease>,
+        <http://dbpedia.org/page/Jaundice>,
+        <http://dbpedia.org/page/Nausea>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Primary_sclerosing_cholangitis>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Ulcerative_colitis>,
+        <http://dbpedia.org/page/Uveitis>,
+        <http://dbpedia.org/page/Weight_loss> ;
+    ns2:sameAs <http://dbpedia.org/page/Inflammatory_bowel_disease> .
+

@@ -1,0 +1,77 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Chimaera> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Determine> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Mycobacterium> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Erythema> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Medical_emergency> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Mycobacterium-chimaera> .
+
+<https://www.nhs.uk/conditions/Mycobacterium-chimaera> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Muscle> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Erythema>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Medical_emergency>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pus>,
+        <http://dbpedia.org/page/Weight_loss> ;
+    ns2:sameAs <http://dbpedia.org/page/Mycobacterium_chimaera> .
+

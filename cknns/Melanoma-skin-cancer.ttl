@@ -1,0 +1,128 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Language_change> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Light> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Scalloped_hammerhead> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Summer> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Ultraviolet> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Vemurafenib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breast_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Buttocks> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Freckle> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hair> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin_color> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lead_poisoning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lymph> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lymph_node> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Man> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Melanoma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Metastasis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nevus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pallor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Scalp> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skin_cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Sunburn> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Melanoma-skin-cancer> .
+
+<http://dbpedia.org/page/Sunlight> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thomas_More> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<https://www.nhs.uk/conditions/Melanoma-skin-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Buttocks>,
+        <http://dbpedia.org/page/Hair>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Lymph>,
+        <http://dbpedia.org/page/Lymph_node>,
+        <http://dbpedia.org/page/Scalp>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Sunlight> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Man>,
+        <http://dbpedia.org/page/Thomas_More>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Human_skin_color> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Breast_cancer>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Freckle>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Lead_poisoning>,
+        <http://dbpedia.org/page/Melanoma>,
+        <http://dbpedia.org/page/Metastasis>,
+        <http://dbpedia.org/page/Nevus>,
+        <http://dbpedia.org/page/Pallor>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Skin_cancer>,
+        <http://dbpedia.org/page/Sunburn> ;
+    ns2:sameAs <http://dbpedia.org/page/Melanoma_skin_cancer> .
+

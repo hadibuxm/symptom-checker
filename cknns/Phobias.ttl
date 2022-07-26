@@ -1,0 +1,163 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Allergen_immunotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Antidepressant> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Beta_blocker> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Cognitive_behavioral_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Escitalopram> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Evidence-based_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Paroxetine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Psychotherapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Sertraline> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Agoraphobia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Awareness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Blurred_vision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Common_cold> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Constipation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Finger> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Indigestion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nausea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Palpitations> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Panic_attack> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Perspiration> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Phobia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Presyncope> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Psychological_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Psychomotor_agitation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Sexually_transmitted_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Short_stature> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Sleep_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Social_anxiety_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Phobias> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tachycardia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Tremor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Phobias> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Finger>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Stomach> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Parent> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Perspiration> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Agoraphobia>,
+        <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Anxiety_disorder>,
+        <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Awareness>,
+        <http://dbpedia.org/page/Blurred_vision>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Common_cold>,
+        <http://dbpedia.org/page/Constipation>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Heartbeat>,
+        <http://dbpedia.org/page/Indigestion>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Nausea>,
+        <http://dbpedia.org/page/Palpitations>,
+        <http://dbpedia.org/page/Panic_attack>,
+        <http://dbpedia.org/page/Phobia>,
+        <http://dbpedia.org/page/Presyncope>,
+        <http://dbpedia.org/page/Psychological_trauma>,
+        <http://dbpedia.org/page/Psychomotor_agitation>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Sexually_transmitted_infection>,
+        <http://dbpedia.org/page/Short_stature>,
+        <http://dbpedia.org/page/Sleep_disorder>,
+        <http://dbpedia.org/page/Social_anxiety_disorder>,
+        <http://dbpedia.org/page/Tachycardia>,
+        <http://dbpedia.org/page/Tremor> ;
+    ns2:sameAs <http://dbpedia.org/page/Phobias> .
+

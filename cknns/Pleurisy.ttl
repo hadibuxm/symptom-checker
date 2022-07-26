@@ -1,0 +1,117 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Ibuprofen> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Medroxyprogesterone_acetate> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Nonsteroidal_anti-inflammatory_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arthritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Autoimmune_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Embolism> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lung_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Major_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rheumatoid_arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Rib> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Short_stature> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Shoulder> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sneeze> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Viral_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pleurisy> .
+
+<http://dbpedia.org/page/Pleurisy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Pleurisy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Rib>,
+        <http://dbpedia.org/page/Shoulder>,
+        <http://dbpedia.org/page/Thorax> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Inflammation> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Arthritis>,
+        <http://dbpedia.org/page/Autoimmune_disease>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Embolism>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Lung_cancer>,
+        <http://dbpedia.org/page/Major_trauma>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Pleurisy>,
+        <http://dbpedia.org/page/Pneumonia>,
+        <http://dbpedia.org/page/Rheumatoid_arthritis>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Short_stature>,
+        <http://dbpedia.org/page/Sneeze>,
+        <http://dbpedia.org/page/Viral_disease> ;
+    ns2:sameAs <http://dbpedia.org/page/Pleurisy> .
+

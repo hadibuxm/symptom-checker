@@ -1,0 +1,265 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Laser_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Occupational_therapist> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Photodynamic_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Sock> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Thalidomide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Typical_antipsychotic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adaptation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Arthralgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arthritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Circulatory_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cold> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Common_cold> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Connective_tissue_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Delayed_onset_muscle_soreness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Fibrosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Finger> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Gastroesophageal_reflux_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Gastrointestinal_tract> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heartburn> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypertension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hypertrophy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Joint_stiffness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Kidney> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lead_poisoning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lymphatic_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle_weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Permanent_teeth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Physical_therapy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pulmonary_hypertension> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Scalp> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Scar> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Short_stature> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Systemic_scleroderma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Tapeworm_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/ThrustSSC> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Toe> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<http://dbpedia.org/page/Scleroderma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Scleroderma> .
+
+<https://www.nhs.uk/conditions/Scleroderma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Circulatory_system>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Finger>,
+        <http://dbpedia.org/page/Gastrointestinal_tract>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Kidney>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Lymphatic_system>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Permanent_teeth>,
+        <http://dbpedia.org/page/Scalp>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Toe> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/ThrustSSC>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adaptation>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Arthralgia>,
+        <http://dbpedia.org/page/Arthritis>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Cold>,
+        <http://dbpedia.org/page/Common_cold>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Connective_tissue_disease>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Delayed_onset_muscle_soreness>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Fibrosis>,
+        <http://dbpedia.org/page/Gastroesophageal_reflux_disease>,
+        <http://dbpedia.org/page/Heartburn>,
+        <http://dbpedia.org/page/Hypertension>,
+        <http://dbpedia.org/page/Hypertrophy>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Joint_stiffness>,
+        <http://dbpedia.org/page/Lead_poisoning>,
+        <http://dbpedia.org/page/Muscle_weakness>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Physical_therapy>,
+        <http://dbpedia.org/page/Pulmonary_hypertension>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Scar>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Scleroderma>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Short_stature>,
+        <http://dbpedia.org/page/Systemic_scleroderma>,
+        <http://dbpedia.org/page/Tapeworm_infection>,
+        <http://dbpedia.org/page/Weight_loss> ;
+    ns2:sameAs <http://dbpedia.org/page/Scleroderma> .
+

@@ -1,0 +1,152 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Haemophilus_influenzae> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arthritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bacteremia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body_fluid> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cellulitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Common_cold> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Epiglottis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Epiglottitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Epileptic_seizure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Hearing_loss> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Intellectual_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Meningitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nose> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Osteomyelitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Otitis_media> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pericarditis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Septic_arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hib> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skin_infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Spinal_cord> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Synovial_membrane> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/ThrustSSC> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Trachea> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<https://www.nhs.uk/conditions/Hib> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Epiglottis>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Nose>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Spinal_cord>,
+        <http://dbpedia.org/page/Synovial_membrane>,
+        <http://dbpedia.org/page/Throat>,
+        <http://dbpedia.org/page/Trachea> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/ThrustSSC> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Body_fluid> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Arthritis>,
+        <http://dbpedia.org/page/Bacteremia>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cellulitis>,
+        <http://dbpedia.org/page/Common_cold>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Epiglottitis>,
+        <http://dbpedia.org/page/Epileptic_seizure>,
+        <http://dbpedia.org/page/Hearing_loss>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Intellectual_disability>,
+        <http://dbpedia.org/page/Meningitis>,
+        <http://dbpedia.org/page/Osteomyelitis>,
+        <http://dbpedia.org/page/Otitis_media>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Pericarditis>,
+        <http://dbpedia.org/page/Pneumonia>,
+        <http://dbpedia.org/page/Sepsis>,
+        <http://dbpedia.org/page/Septic_arthritis>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Skin_infection> ;
+    ns2:sameAs <http://dbpedia.org/page/Hib> .
+

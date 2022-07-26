@@ -1,0 +1,222 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/General_surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Intensive_care_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Vaccine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/While> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Adaptive_behavior> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Amputation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Animal_bite> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Atmospheric_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Bacteremia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blister> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cellulitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Diabetes_mellitus_type_2> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Disability> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Edema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erythema> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fasciitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Gastroenteritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Gingivitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Go_(game)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Influenza-like_illness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Lead_poisoning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Major_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Medical_emergency> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Necrotizing_fasciitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Organ_dysfunction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Osteomyelitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pat_Butcher> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Robert_E._Lee> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Unwell> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Vomiting> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Wetting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Necrotising-fasciitis> .
+
+<http://dbpedia.org/page/Wound> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Necrotising-fasciitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Throat> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adaptive_behavior>,
+        <http://dbpedia.org/page/Go_(game)>,
+        <http://dbpedia.org/page/Pat_Butcher>,
+        <http://dbpedia.org/page/Robert_E._Lee>,
+        <http://dbpedia.org/page/Unwell> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Vomiting> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Amputation>,
+        <http://dbpedia.org/page/Animal_bite>,
+        <http://dbpedia.org/page/Atmospheric_pressure>,
+        <http://dbpedia.org/page/Bacteremia>,
+        <http://dbpedia.org/page/Blister>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cellulitis>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Diabetes_mellitus_type_2>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Disability>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Edema>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Erythema>,
+        <http://dbpedia.org/page/Fasciitis>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Gastroenteritis>,
+        <http://dbpedia.org/page/Gingivitis>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Influenza-like_illness>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Lead_poisoning>,
+        <http://dbpedia.org/page/Major_trauma>,
+        <http://dbpedia.org/page/Medical_emergency>,
+        <http://dbpedia.org/page/Necrotizing_fasciitis>,
+        <http://dbpedia.org/page/Organ_dysfunction>,
+        <http://dbpedia.org/page/Osteomyelitis>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Sepsis>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Weakness>,
+        <http://dbpedia.org/page/Wetting>,
+        <http://dbpedia.org/page/Wound> ;
+    ns2:sameAs <http://dbpedia.org/page/Necrotising_fasciitis> .
+

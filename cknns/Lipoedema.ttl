@@ -1,0 +1,167 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Cold_compression_therapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Massage> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Meat_tenderness> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Nanoparticle> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Adipose_tissue> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ankle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Apply> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Barotrauma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone_fracture> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bruise> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Buttocks> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Catheter> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Clothing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cold> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Common_cold> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Difference> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Edema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hepatomegaly> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_leg> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lymphedema> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Management> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Menopause> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Mental_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nerve_compression_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Obesity> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pleural_effusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Puberty> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Redox> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lipoedema> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thigh> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vein> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Wrist> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<https://www.nhs.uk/conditions/Lipoedema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Adipose_tissue>,
+        <http://dbpedia.org/page/Ankle>,
+        <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_cell>,
+        <http://dbpedia.org/page/Buttocks>,
+        <http://dbpedia.org/page/Catheter>,
+        <http://dbpedia.org/page/Clothing>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_leg>,
+        <http://dbpedia.org/page/Redox>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thigh>,
+        <http://dbpedia.org/page/Vein>,
+        <http://dbpedia.org/page/Wrist> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Parent>,
+        <http://dbpedia.org/page/Puberty> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Apply>,
+        <http://dbpedia.org/page/Barotrauma>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Bone_fracture>,
+        <http://dbpedia.org/page/Bruise>,
+        <http://dbpedia.org/page/Cold>,
+        <http://dbpedia.org/page/Common_cold>,
+        <http://dbpedia.org/page/Difference>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Edema>,
+        <http://dbpedia.org/page/Hepatomegaly>,
+        <http://dbpedia.org/page/Lymphedema>,
+        <http://dbpedia.org/page/Management>,
+        <http://dbpedia.org/page/Menopause>,
+        <http://dbpedia.org/page/Mental_disorder>,
+        <http://dbpedia.org/page/Nerve_compression_syndrome>,
+        <http://dbpedia.org/page/Obesity>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pleural_effusion>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela> ;
+    ns2:sameAs <http://dbpedia.org/page/Lipoedema> .
+

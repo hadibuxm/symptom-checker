@@ -1,0 +1,87 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Cereal> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Oat> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Side_dish> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Traditional_Chinese_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Wheat> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Abdominal_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bran> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Dietary_fiber> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Disability> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Eating_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Lifestyle_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Toddler> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Toilet_training> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Volcano> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Constipation> .
+
+<http://dbpedia.org/page/Constipation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Constipation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Bran>,
+        <http://dbpedia.org/page/Dietary_fiber> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Infant>,
+        <http://dbpedia.org/page/Toddler>,
+        <http://dbpedia.org/page/Toilet_training> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abdominal_pain>,
+        <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Constipation>,
+        <http://dbpedia.org/page/Disability>,
+        <http://dbpedia.org/page/Eating_disorder>,
+        <http://dbpedia.org/page/Lifestyle_disease>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Volcano> ;
+    ns2:sameAs <http://dbpedia.org/page/Constipation> .
+

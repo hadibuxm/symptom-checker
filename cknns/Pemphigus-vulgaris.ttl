@@ -1,0 +1,130 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Anus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Autoimmune_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blister> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Conjunctiva> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Dysphonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Eyelid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Larynx> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mucous_membrane> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pemphigus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Redox> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Scar> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thin_film> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Toothache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pemphigus-vulgaris> .
+
+<http://dbpedia.org/page/Vagina> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weather_front> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pemphigus_vulgaris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Pemphigus-vulgaris> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Anus>,
+        <http://dbpedia.org/page/Conjunctiva>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Eyelid>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Larynx>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Mucous_membrane>,
+        <http://dbpedia.org/page/Redox>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thin_film>,
+        <http://dbpedia.org/page/Throat>,
+        <http://dbpedia.org/page/Vagina>,
+        <http://dbpedia.org/page/Weather_front> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Autoimmune_disease>,
+        <http://dbpedia.org/page/Blister>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysphonia>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pemphigus>,
+        <http://dbpedia.org/page/Pemphigus_vulgaris>,
+        <http://dbpedia.org/page/Scar>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Toothache> ;
+    ns2:sameAs <http://dbpedia.org/page/Pemphigus_vulgaris> .
+

@@ -1,0 +1,253 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Alternative_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Amoxicillin> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Bronchodilator> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Combination_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Cough_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Doxycycline> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Evidence-based_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Hanging> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Honey> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Ibuprofen> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Lemon> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Mucokinetics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Paracetamol> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Pharmaceutical_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Side_dish> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Virus> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Acute_bronchitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Aortic_stenosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Chronic_obstructive_pulmonary_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cold> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Common_cold> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Dehydration> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Fibrosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hair> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heart_failure> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Immunodeficiency> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infanticide> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Kidney> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Kidney_failure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Lifestyle_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Liver> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Liver_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mucus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Nose> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Occupational_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Old_age> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Phlegm> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Pleural_effusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Preterm_birth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Respiratory_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Shortness_of_breath> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Sore_throat> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Sputum> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Thin_film> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Viral_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Bronchitis> .
+
+<http://dbpedia.org/page/Bronchitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Bronchitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Hair>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Kidney>,
+        <http://dbpedia.org/page/Liver>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Nose>,
+        <http://dbpedia.org/page/Stomach>,
+        <http://dbpedia.org/page/Thin_film>,
+        <http://dbpedia.org/page/Throat> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Infanticide>,
+        <http://dbpedia.org/page/Old_age> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Phlegm> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_bronchitis>,
+        <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Aortic_stenosis>,
+        <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Bronchitis>,
+        <http://dbpedia.org/page/Chronic_obstructive_pulmonary_disease>,
+        <http://dbpedia.org/page/Cold>,
+        <http://dbpedia.org/page/Common_cold>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Dehydration>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Fibrosis>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Heart_failure>,
+        <http://dbpedia.org/page/Immunodeficiency>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Kidney_failure>,
+        <http://dbpedia.org/page/Lifestyle_disease>,
+        <http://dbpedia.org/page/Liver_disease>,
+        <http://dbpedia.org/page/Mucus>,
+        <http://dbpedia.org/page/Occupational_disease>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Pleural_effusion>,
+        <http://dbpedia.org/page/Pneumonia>,
+        <http://dbpedia.org/page/Preterm_birth>,
+        <http://dbpedia.org/page/Respiratory_disease>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Shortness_of_breath>,
+        <http://dbpedia.org/page/Sore_throat>,
+        <http://dbpedia.org/page/Sputum>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Viral_disease> ;
+    ns2:sameAs <http://dbpedia.org/page/Bronchitis> .
+

@@ -1,0 +1,71 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Light> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Traditional_Chinese_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Menopause> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Metrorrhagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Sex> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Sexually_transmitted_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vagina> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vaginal_discharge> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<http://dbpedia.org/page/Vaginal_lubrication> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Vaginitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Vaginitis> .
+
+<https://www.nhs.uk/conditions/Vaginitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Vagina> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Sex> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Vaginal_lubrication> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Menopause>,
+        <http://dbpedia.org/page/Metrorrhagia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Sexually_transmitted_infection>,
+        <http://dbpedia.org/page/Vaginal_discharge>,
+        <http://dbpedia.org/page/Vaginitis> ;
+    ns2:sameAs <http://dbpedia.org/page/Vaginitis> .
+

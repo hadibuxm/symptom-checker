@@ -1,0 +1,156 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Caffeine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Dopamine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Habit> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Hypnosis> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Stimulant> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Daytime_television> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_leg> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Insomnia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Iron-deficiency_anemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Iron_supplement> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Kidney> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Kidney_failure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Middle_age> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Mood_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nervous_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Paresthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Penis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Primary_tumor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Sleep_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Social_support> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<http://dbpedia.org/page/Thigh> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Woman> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Restless_legs_syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Restless-legs-syndrome> .
+
+<https://www.nhs.uk/conditions/Restless-legs-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_leg>,
+        <http://dbpedia.org/page/Kidney>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Nervous_system>,
+        <http://dbpedia.org/page/Penis>,
+        <http://dbpedia.org/page/Thigh> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Childhood>,
+        <http://dbpedia.org/page/Daytime_television>,
+        <http://dbpedia.org/page/Middle_age>,
+        <http://dbpedia.org/page/Woman> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Insomnia>,
+        <http://dbpedia.org/page/Iron-deficiency_anemia>,
+        <http://dbpedia.org/page/Iron_supplement>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Kidney_failure>,
+        <http://dbpedia.org/page/Mood_disorder>,
+        <http://dbpedia.org/page/Paresthesia>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Primary_tumor>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Restless_legs_syndrome>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sleep_disorder>,
+        <http://dbpedia.org/page/Social_support>,
+        <http://dbpedia.org/page/Thermoregulation> ;
+    ns2:sameAs <http://dbpedia.org/page/Restless_legs_syndrome> .
+

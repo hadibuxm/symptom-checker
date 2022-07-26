@@ -1,0 +1,108 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Common_tern> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Side_dish> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_sugar> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Electric_shock> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hyperglycemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Polyneuropathy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Shingles> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stabbing> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Peripheral-neuropathy> .
+
+<http://dbpedia.org/page/Peripheral_neuropathy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Peripheral-neuropathy> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Skin> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Blood_sugar>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Electric_shock>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Hyperglycemia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Peripheral_neuropathy>,
+        <http://dbpedia.org/page/Polyneuropathy>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Shingles>,
+        <http://dbpedia.org/page/Stabbing>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns2:sameAs <http://dbpedia.org/page/Peripheral_neuropathy> .
+

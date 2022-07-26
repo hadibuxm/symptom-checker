@@ -1,0 +1,281 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Autumn> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Beta_blocker> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Debridement> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Nicotine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Oxygen_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Sock> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Winter> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Amputation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Apply> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Atmosphere_of_Earth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain_damage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Cetacean_stranding> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Circulatory_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Clothing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cold> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Ear> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Epithelium> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fatigue_(medical)> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Foot> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Gangrene> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Homelessness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_nose> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hyperventilation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hypotension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hypothermia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Lead_poisoning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lip> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Major_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Medical_emergency> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Organ_(anatomy)> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pallor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paresthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pelvic_cavity> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pleural_effusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stenosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Substance_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Tachycardia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Tachypnea> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Tetanus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Thin_film> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thomas_More> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/ThrustSSC> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Thunderstorm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Toe> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Traffic_collision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Unconsciousness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Vasoconstriction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/White_blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Wind_chill> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Frostbite> .
+
+<http://dbpedia.org/page/Windy> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Wound> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Frostbite> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Frostbite> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Atmosphere_of_Earth>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Circulatory_system>,
+        <http://dbpedia.org/page/Clothing>,
+        <http://dbpedia.org/page/Ear>,
+        <http://dbpedia.org/page/Epithelium>,
+        <http://dbpedia.org/page/Foot>,
+        <http://dbpedia.org/page/Head>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_head>,
+        <http://dbpedia.org/page/Human_nose>,
+        <http://dbpedia.org/page/Lip>,
+        <http://dbpedia.org/page/Organ_(anatomy)>,
+        <http://dbpedia.org/page/Pelvic_cavity>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thin_film>,
+        <http://dbpedia.org/page/Toe>,
+        <http://dbpedia.org/page/White_blood_cell> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Thomas_More>,
+        <http://dbpedia.org/page/ThrustSSC>,
+        <http://dbpedia.org/page/Walter_Read>,
+        <http://dbpedia.org/page/Windy> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Amputation>,
+        <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Apply>,
+        <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Brain_damage>,
+        <http://dbpedia.org/page/Cetacean_stranding>,
+        <http://dbpedia.org/page/Cold>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Fatigue_(medical)>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Frostbite>,
+        <http://dbpedia.org/page/Gangrene>,
+        <http://dbpedia.org/page/Homelessness>,
+        <http://dbpedia.org/page/Hyperventilation>,
+        <http://dbpedia.org/page/Hypotension>,
+        <http://dbpedia.org/page/Hypothermia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Lead_poisoning>,
+        <http://dbpedia.org/page/Major_trauma>,
+        <http://dbpedia.org/page/Medical_emergency>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pallor>,
+        <http://dbpedia.org/page/Paresthesia>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Pleural_effusion>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sepsis>,
+        <http://dbpedia.org/page/Stenosis>,
+        <http://dbpedia.org/page/Substance_abuse>,
+        <http://dbpedia.org/page/Tachycardia>,
+        <http://dbpedia.org/page/Tachypnea>,
+        <http://dbpedia.org/page/Tetanus>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Thunderstorm>,
+        <http://dbpedia.org/page/Traffic_collision>,
+        <http://dbpedia.org/page/Unconsciousness>,
+        <http://dbpedia.org/page/Vasoconstriction>,
+        <http://dbpedia.org/page/Wind_chill>,
+        <http://dbpedia.org/page/Wound> ;
+    ns2:sameAs <http://dbpedia.org/page/Frostbite> .
+

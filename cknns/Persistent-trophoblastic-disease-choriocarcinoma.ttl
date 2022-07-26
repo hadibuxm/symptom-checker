@@ -1,0 +1,123 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Abortion> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Choriocarcinoma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Ectopic_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Endometrium> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Epithelium> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fetus> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Miscarriage> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Molar_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Placenta> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Trophoblast> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Uterus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Vagina> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<https://www.nhs.uk/conditions/Persistent-trophoblastic-disease-choriocarcinoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Endometrium>,
+        <http://dbpedia.org/page/Epithelium>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Placenta>,
+        <http://dbpedia.org/page/Stomach>,
+        <http://dbpedia.org/page/Trophoblast>,
+        <http://dbpedia.org/page/Uterus>,
+        <http://dbpedia.org/page/Vagina> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Fetus>,
+        <http://dbpedia.org/page/Infant> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abortion>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Choriocarcinoma>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Ectopic_pregnancy>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Miscarriage>,
+        <http://dbpedia.org/page/Molar_pregnancy>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia> ;
+    ns2:sameAs <http://dbpedia.org/page/Persistent_trophoblastic_disease_choriocarcinoma> .
+

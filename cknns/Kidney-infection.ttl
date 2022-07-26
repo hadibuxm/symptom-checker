@@ -1,0 +1,117 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Escherichia_coli> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Bacteremia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Constipation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Hematuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Kidney> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Kidney_stone_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Male> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Male_reproductive_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Permanent_teeth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Kidney-infection> .
+
+<http://dbpedia.org/page/Sex> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Thoracic_diaphragm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Unwell> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Urethra> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Urinary_tract_infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Urine> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Weather_front> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Woman> a <http://dbpedia.org/page/Category:Sex> .
+
+<https://www.nhs.uk/conditions/Kidney-infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Kidney>,
+        <http://dbpedia.org/page/Male_reproductive_system>,
+        <http://dbpedia.org/page/Permanent_teeth>,
+        <http://dbpedia.org/page/Thoracic_diaphragm>,
+        <http://dbpedia.org/page/Urethra>,
+        <http://dbpedia.org/page/Weather_front> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Male>,
+        <http://dbpedia.org/page/Sex>,
+        <http://dbpedia.org/page/Unwell>,
+        <http://dbpedia.org/page/Woman> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Urine> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Bacteremia>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Constipation>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Hematuria>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Kidney_stone_disease>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Sepsis>,
+        <http://dbpedia.org/page/Urinary_tract_infection> ;
+    ns2:sameAs <http://dbpedia.org/page/Kidney_infection> .
+

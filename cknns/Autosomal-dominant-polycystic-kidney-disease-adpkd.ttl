@@ -1,0 +1,214 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Determine> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Genetic_testing> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Tolvaptan> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Wine_fault> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Abdominal_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Aneurysm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Autosomal_dominant_polycystic_kidney_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Autosomal_recessive_polycystic_kidney_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain_ischemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Chronic_kidney_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cyst> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fault_(geology)> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hematuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypertension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Intracranial_aneurysm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Kidney> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Kidney_failure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Kidney_stone_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Kidney_transplantation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Management> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Metastasis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mutation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Myocardial_infarction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Only_(Nine_Inch_Nails_song)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Proteinuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Senescence> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Software_bug> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Subarachnoid_hemorrhage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Upper_gastrointestinal_bleeding> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> .
+
+<http://dbpedia.org/page/Urinary_tract_infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Urine> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<https://www.nhs.uk/conditions/Autosomal-dominant-polycystic-kidney-disease-adpkd> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_cell>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Kidney> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Childhood>,
+        <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Only_(Nine_Inch_Nails_song)>,
+        <http://dbpedia.org/page/Parent>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Urine> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abdominal_pain>,
+        <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Aneurysm>,
+        <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Autosomal_dominant_polycystic_kidney_disease>,
+        <http://dbpedia.org/page/Autosomal_recessive_polycystic_kidney_disease>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Brain_ischemia>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Chronic_kidney_disease>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Cyst>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Fault_(geology)>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Hematuria>,
+        <http://dbpedia.org/page/Hypertension>,
+        <http://dbpedia.org/page/Intracranial_aneurysm>,
+        <http://dbpedia.org/page/Kidney_failure>,
+        <http://dbpedia.org/page/Kidney_stone_disease>,
+        <http://dbpedia.org/page/Kidney_transplantation>,
+        <http://dbpedia.org/page/Management>,
+        <http://dbpedia.org/page/Metastasis>,
+        <http://dbpedia.org/page/Mutation>,
+        <http://dbpedia.org/page/Myocardial_infarction>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Proteinuria>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Senescence>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Software_bug>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Subarachnoid_hemorrhage>,
+        <http://dbpedia.org/page/Upper_gastrointestinal_bleeding>,
+        <http://dbpedia.org/page/Urinary_tract_infection> ;
+    ns2:sameAs <http://dbpedia.org/page/Autosomal_dominant_polycystic_kidney_disease_adpkd> .
+

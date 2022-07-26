@@ -1,0 +1,140 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Occupational_therapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Riluzole> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Traditional_Chinese_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Amniotic_fluid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Amyotrophic_lateral_sclerosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ankle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cramp> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Crying> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Dementia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Frontotemporal_dementia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_leg> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Language> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Life_expectancy> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Lumbar_puncture> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Motor_neuron> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Motor_neuron_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Physical_therapy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Saliva> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Spinal_cord> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thin_film> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Motor-neurone-disease> .
+
+<https://www.nhs.uk/conditions/Motor-neurone-disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Amniotic_fluid>,
+        <http://dbpedia.org/page/Ankle>,
+        <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Cramp>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Human_leg>,
+        <http://dbpedia.org/page/Lumbar_puncture>,
+        <http://dbpedia.org/page/Motor_neuron>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Spinal_cord>,
+        <http://dbpedia.org/page/Thin_film> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Life_expectancy> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Saliva> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Amyotrophic_lateral_sclerosis>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Crying>,
+        <http://dbpedia.org/page/Dementia>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Frontotemporal_dementia>,
+        <http://dbpedia.org/page/Language>,
+        <http://dbpedia.org/page/Motor_neuron_disease>,
+        <http://dbpedia.org/page/Physical_therapy>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Weakness>,
+        <http://dbpedia.org/page/Weight_loss> ;
+    ns2:sameAs <http://dbpedia.org/page/Motor_neurone_disease> .
+

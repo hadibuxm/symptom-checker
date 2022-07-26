@@ -1,0 +1,125 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Anus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Aortic_stenosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Appetite> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Autoimmune_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Colitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Environmental_factor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hematuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Internal_anal_sphincter> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Large_intestine> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Man> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Mucus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Popular_culture> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Rectum> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Small_intestine> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<http://dbpedia.org/page/Ulcerative_colitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ulcerative-colitis> .
+
+<https://www.nhs.uk/conditions/Ulcerative-colitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Anus>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Internal_anal_sphincter>,
+        <http://dbpedia.org/page/Large_intestine>,
+        <http://dbpedia.org/page/Rectum>,
+        <http://dbpedia.org/page/Small_intestine> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Man>,
+        <http://dbpedia.org/page/Popular_culture> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Inflammation> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Aortic_stenosis>,
+        <http://dbpedia.org/page/Appetite>,
+        <http://dbpedia.org/page/Autoimmune_disease>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Colitis>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Environmental_factor>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Hematuria>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Mucus>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pus>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Ulcer>,
+        <http://dbpedia.org/page/Ulcerative_colitis>,
+        <http://dbpedia.org/page/Weight_loss> ;
+    ns2:sameAs <http://dbpedia.org/page/Ulcerative_colitis> .
+

@@ -1,0 +1,160 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Cereal> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Intramuscular_injection> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Margarine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Abdominal_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Ankle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Appetite> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Constipation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dental_caries> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Eating_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypocalcaemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Interference_(wave_propagation)> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Knee> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Liver> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Liver_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nausea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Osteomalacia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rickets> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Rickets-and-osteomalacia> .
+
+<http://dbpedia.org/page/Skeleton> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skull> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sunlight> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tooth_enamel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Urine> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Vomiting> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Wrist> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<https://www.nhs.uk/conditions/Rickets-and-osteomalacia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Ankle>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Knee>,
+        <http://dbpedia.org/page/Liver>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Skeleton>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Skull>,
+        <http://dbpedia.org/page/Sunlight>,
+        <http://dbpedia.org/page/Tooth_enamel>,
+        <http://dbpedia.org/page/Wrist> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Infant>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Urine> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abdominal_pain>,
+        <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Appetite>,
+        <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Bone_pain>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Constipation>,
+        <http://dbpedia.org/page/Dental_caries>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Eating_disorder>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Hypocalcaemia>,
+        <http://dbpedia.org/page/Interference_(wave_propagation)>,
+        <http://dbpedia.org/page/Liver_disease>,
+        <http://dbpedia.org/page/Nausea>,
+        <http://dbpedia.org/page/Osteomalacia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Rickets>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Vomiting> ;
+    ns2:sameAs <http://dbpedia.org/page/Rickets_and_osteomalacia> .
+

@@ -1,0 +1,146 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix ns2: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Radiation_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns2:treatmentTo <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns2:SpeciesCausesTo <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Typical_antipsychotic> a <http://dbpedia.org/ontology/Drug> ;
+    ns2:drugTo <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Awareness> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breast_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Cryptorchidism> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Edema> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Father> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Germ_cell_tumor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infantile_esotropia> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Infertility> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Kingdom_of_England> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Lineal_descendant> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Male> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Man> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Neoplasm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Orchiectomy> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Psychokinesis> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Scrotum> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Segmental_resection> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Seminoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<http://dbpedia.org/page/Sex> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Testicle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Testicular_cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causesDisease <https://www.nhs.uk/conditions/Testicular-cancer> .
+
+<https://www.nhs.uk/conditions/Testicular-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_eye>,
+        <http://dbpedia.org/page/Orchiectomy>,
+        <http://dbpedia.org/page/Scrotum>,
+        <http://dbpedia.org/page/Segmental_resection>,
+        <http://dbpedia.org/page/Testicle> ;
+    ns2:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Childhood>,
+        <http://dbpedia.org/page/Father>,
+        <http://dbpedia.org/page/Kingdom_of_England>,
+        <http://dbpedia.org/page/Male>,
+        <http://dbpedia.org/page/Man>,
+        <http://dbpedia.org/page/Sex>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns2:causesSymptom <http://dbpedia.org/page/Awareness>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Breast_cancer>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Cryptorchidism>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Edema>,
+        <http://dbpedia.org/page/Germ_cell_tumor>,
+        <http://dbpedia.org/page/Infantile_esotropia>,
+        <http://dbpedia.org/page/Infertility>,
+        <http://dbpedia.org/page/Lineal_descendant>,
+        <http://dbpedia.org/page/Neoplasm>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Psychokinesis>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Seminoma>,
+        <http://dbpedia.org/page/Testicular_cancer> ;
+    ns1:sameAs <http://dbpedia.org/page/Testicular_cancer> .
+

@@ -1,0 +1,267 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Alternative_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Combination_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Evidence-based_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/HIV> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Medical_ultrasound> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Pear> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Scotch_whisky> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Abdominal_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Abscess> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Appetite> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Bile> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Bile_duct> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bloating> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Cholecystitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cholecystostomy> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Cystic_duct> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Dehydration> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Digestion> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Eating_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Epileptic_seizure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Gallbladder> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Gallstone> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Gangrene> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Gravity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Jaundice> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Lactiferous_duct> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Leaf> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Liver> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Major_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Malnutrition> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Navel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Obesity> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Peritonitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pleural_effusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Redox> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Retina> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Rib> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Rib_cage> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Segmental_resection> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Shoulder> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Side_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tachycardia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Unwell> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Upper_gastrointestinal_bleeding> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Acute-cholecystitis> .
+
+<http://dbpedia.org/page/Wound> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Acute-cholecystitis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Bile_duct>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Cholecystostomy>,
+        <http://dbpedia.org/page/Cystic_duct>,
+        <http://dbpedia.org/page/Digestion>,
+        <http://dbpedia.org/page/Gallbladder>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Lactiferous_duct>,
+        <http://dbpedia.org/page/Leaf>,
+        <http://dbpedia.org/page/Liver>,
+        <http://dbpedia.org/page/Navel>,
+        <http://dbpedia.org/page/Redox>,
+        <http://dbpedia.org/page/Retina>,
+        <http://dbpedia.org/page/Rib>,
+        <http://dbpedia.org/page/Rib_cage>,
+        <http://dbpedia.org/page/Segmental_resection>,
+        <http://dbpedia.org/page/Shoulder>,
+        <http://dbpedia.org/page/Skin> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Unwell> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Bile>,
+        <http://dbpedia.org/page/Inflammation> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abdominal_pain>,
+        <http://dbpedia.org/page/Abscess>,
+        <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Appetite>,
+        <http://dbpedia.org/page/Bloating>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Cholecystitis>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Dehydration>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Eating_disorder>,
+        <http://dbpedia.org/page/Epileptic_seizure>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Gallstone>,
+        <http://dbpedia.org/page/Gangrene>,
+        <http://dbpedia.org/page/Gravity>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Jaundice>,
+        <http://dbpedia.org/page/Major_trauma>,
+        <http://dbpedia.org/page/Malnutrition>,
+        <http://dbpedia.org/page/Obesity>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Peritonitis>,
+        <http://dbpedia.org/page/Pleural_effusion>,
+        <http://dbpedia.org/page/Pus>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sepsis>,
+        <http://dbpedia.org/page/Side_effect>,
+        <http://dbpedia.org/page/Tachycardia>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Upper_gastrointestinal_bleeding>,
+        <http://dbpedia.org/page/Weight_loss>,
+        <http://dbpedia.org/page/Wound> ;
+    ns2:sameAs <http://dbpedia.org/page/Acute_cholecystitis> .
+

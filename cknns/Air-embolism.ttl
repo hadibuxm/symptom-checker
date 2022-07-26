@@ -1,0 +1,197 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Diving_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Hyperbaric_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Intravenous_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Medical_procedure> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Oxygen_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Relaxation_technique> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Syringe> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Adaptation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Air_embolism> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Artery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Atmosphere_of_Earth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Barotrauma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blurred_vision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cardiac_arrhythmia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Catheter> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Cyanosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Decompression_sickness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Embolism> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fat_embolism> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hair> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Higher_education> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypothermia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Leaf> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Loss_function> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paralysis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Tachypnea> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Air-embolism> .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+<https://www.nhs.uk/conditions/Air-embolism> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Artery>,
+        <http://dbpedia.org/page/Atmosphere_of_Earth>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Catheter>,
+        <http://dbpedia.org/page/Hair>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Leaf>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thorax> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Higher_education> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adaptation>,
+        <http://dbpedia.org/page/Air_embolism>,
+        <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Barotrauma>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Blurred_vision>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cardiac_arrhythmia>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Cyanosis>,
+        <http://dbpedia.org/page/Decompression_sickness>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Embolism>,
+        <http://dbpedia.org/page/Fat_embolism>,
+        <http://dbpedia.org/page/Heartbeat>,
+        <http://dbpedia.org/page/Hypothermia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Loss_function>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Paralysis>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Tachypnea>,
+        <http://dbpedia.org/page/Weakness> .
+

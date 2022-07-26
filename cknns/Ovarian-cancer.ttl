@@ -1,0 +1,85 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Common_tern> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Dental_extraction> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/General_surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Hormone_therapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Treatment_of_cancer> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bloating> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breast> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breast_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Eating_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Endometrial_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Endometriosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fallopian_tube> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Irritable_bowel_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Menopause> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Ovarian-cancer> .
+
+<http://dbpedia.org/page/Pelvis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Woman> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Ovarian_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Ovarian-cancer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Breast>,
+        <http://dbpedia.org/page/Fallopian_tube>,
+        <http://dbpedia.org/page/Pelvis> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Woman> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Bloating>,
+        <http://dbpedia.org/page/Breast_cancer>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Eating_disorder>,
+        <http://dbpedia.org/page/Endometrial_cancer>,
+        <http://dbpedia.org/page/Endometriosis>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Irritable_bowel_syndrome>,
+        <http://dbpedia.org/page/Menopause>,
+        <http://dbpedia.org/page/Ovarian_cancer> ;
+    ns2:sameAs <http://dbpedia.org/page/Ovarian_cancer> .
+

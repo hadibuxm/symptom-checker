@@ -1,0 +1,229 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Adalimumab> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Alternative_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Apremilast> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Balneotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/COX-2_inhibitor> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Celecoxib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Diclofenac> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Etanercept> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Etoricoxib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Evidence-based_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Ibuprofen> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Intramuscular_injection> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Ionizing_radiation> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Leflunomide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Liver_function_tests> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Methotrexate> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Naproxen> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Nonsteroidal_anti-inflammatory_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Pharmaceutical_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Sulfasalazine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Tofacitinib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Traditional_Chinese_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Traditional_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Abdominal_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Allergy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arthritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Circulatory_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Epithelium> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Erythema> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Gastric_acid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Indigestion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Joint_effusion> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Kidney> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nephrotoxicity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Neurodegeneration> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Osteoarthritis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Peptic_ulcer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Psoriasis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Redox> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Rheumatoid_arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Sore_throat> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<http://dbpedia.org/page/Urine> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Psoriatic_arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Psoriatic-arthritis> .
+
+<https://www.nhs.uk/conditions/Psoriatic-arthritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Circulatory_system>,
+        <http://dbpedia.org/page/Epithelium>,
+        <http://dbpedia.org/page/Gastric_acid>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Kidney>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Redox>,
+        <http://dbpedia.org/page/Stomach> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Inflammation>,
+        <http://dbpedia.org/page/Urine> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abdominal_pain>,
+        <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Allergy>,
+        <http://dbpedia.org/page/Arthritis>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Erythema>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Indigestion>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Joint_effusion>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Nephrotoxicity>,
+        <http://dbpedia.org/page/Neurodegeneration>,
+        <http://dbpedia.org/page/Osteoarthritis>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Peptic_ulcer>,
+        <http://dbpedia.org/page/Psoriasis>,
+        <http://dbpedia.org/page/Psoriatic_arthritis>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Rheumatoid_arthritis>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sore_throat>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Ulcer> ;
+    ns2:sameAs <http://dbpedia.org/page/Psoriatic_arthritis> .
+

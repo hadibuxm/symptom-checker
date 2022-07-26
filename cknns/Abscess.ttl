@@ -1,0 +1,142 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Abscess .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo ns1:Abscess .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+<http://dbpedia.org/page/Sauna> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Abscess .
+
+<http://dbpedia.org/page/Surgical_incision> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Abscess .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Abscess> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Appendicitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Axilla> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Barotrauma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Gland> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hair> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hand> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_leg> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Neoplasm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Obesity> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Overweight> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Root> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Side_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sobriety> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Sweat_gland> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Take_Care_(album)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Abscess .
+
+<http://dbpedia.org/page/Unwell> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/White_blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Wound> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+ns1:Abscess a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Axilla>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Gland>,
+        <http://dbpedia.org/page/Hair>,
+        <http://dbpedia.org/page/Hand>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_leg>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Root>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Sweat_gland>,
+        <http://dbpedia.org/page/White_blood_cell> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Take_Care_(album)>,
+        <http://dbpedia.org/page/Unwell>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abscess>,
+        <http://dbpedia.org/page/Appendicitis>,
+        <http://dbpedia.org/page/Barotrauma>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Neoplasm>,
+        <http://dbpedia.org/page/Obesity>,
+        <http://dbpedia.org/page/Overweight>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Pus>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Side_effect>,
+        <http://dbpedia.org/page/Sobriety>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Wound> .
+

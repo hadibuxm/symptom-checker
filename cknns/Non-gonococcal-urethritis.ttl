@@ -1,0 +1,95 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Amniotic_fluid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body_fluid> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chlamydia_infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cotton> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Human_penis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Man> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Penis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Plastic_surgery> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Result> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Sensory_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sex> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Sexually_transmitted_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Sputum> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Tapeworm_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Urethra> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Urinary_tract_infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Vaginal_discharge> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Non-gonococcal-urethritis> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<https://www.nhs.uk/conditions/Non-gonococcal-urethritis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Amniotic_fluid>,
+        <http://dbpedia.org/page/Cotton>,
+        <http://dbpedia.org/page/Human_penis>,
+        <http://dbpedia.org/page/Penis>,
+        <http://dbpedia.org/page/Plastic_surgery>,
+        <http://dbpedia.org/page/Sensory_system>,
+        <http://dbpedia.org/page/Urethra> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Man>,
+        <http://dbpedia.org/page/Sex>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Body_fluid> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Chlamydia_infection>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Result>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sexually_transmitted_infection>,
+        <http://dbpedia.org/page/Sputum>,
+        <http://dbpedia.org/page/Tapeworm_infection>,
+        <http://dbpedia.org/page/Urinary_tract_infection>,
+        <http://dbpedia.org/page/Vaginal_discharge> ;
+    ns2:sameAs <http://dbpedia.org/page/Non_gonococcal_urethritis> .
+

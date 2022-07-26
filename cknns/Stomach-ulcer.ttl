@@ -1,0 +1,159 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Aspirin> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Coffee> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Common_dolphin> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/ELISA> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Evidence-based_medicine> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Helicobacter> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Ibuprofen> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Nonsteroidal_anti-inflammatory_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Paracetamol> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Scalloped_hammerhead> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Tuberculosis_management> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Asthma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Defecation> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Epithelium> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Gastric_acid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heartburn> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Helicobacter_pylori> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hematemesis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hematuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_feces> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Indigestion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Internal_bleeding> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pathogenic_bacteria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Peptic_ulcer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pleurisy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Sexually_transmitted_infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Side_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Stomach-ulcer> .
+
+<http://dbpedia.org/page/Urea_breath_test> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<https://www.nhs.uk/conditions/Stomach-ulcer> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Epithelium>,
+        <http://dbpedia.org/page/Gastric_acid>,
+        <http://dbpedia.org/page/Stomach>,
+        <http://dbpedia.org/page/Urea_breath_test> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Human_feces> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Asthma>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Defecation>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Heartburn>,
+        <http://dbpedia.org/page/Helicobacter_pylori>,
+        <http://dbpedia.org/page/Hematemesis>,
+        <http://dbpedia.org/page/Hematuria>,
+        <http://dbpedia.org/page/Indigestion>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Internal_bleeding>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pathogenic_bacteria>,
+        <http://dbpedia.org/page/Peptic_ulcer>,
+        <http://dbpedia.org/page/Pleurisy>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Sexually_transmitted_infection>,
+        <http://dbpedia.org/page/Side_effect>,
+        <http://dbpedia.org/page/Ulcer> ;
+    ns2:sameAs <http://dbpedia.org/page/Stomach_ulcer> .
+

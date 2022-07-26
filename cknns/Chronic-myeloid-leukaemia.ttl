@@ -1,0 +1,148 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Bcr-Abl_tyrosine-kinase_inhibitor> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Bosutinib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Dasatinib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Hematopoietic_stem_cell_transplantation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Imatinib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Language_change> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Meat_tenderness> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Nilotinib> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Organ_transplantation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Pharmaceutical_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone_marrow> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_myelogenous_leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Edema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hair> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypoplasia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mutation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/NHL_on_Sportsnet> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Neurodegeneration> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Night_sweats> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Philadelphia_chromosome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Redox> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Stem_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thermoregulation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> .
+
+<http://dbpedia.org/page/White_blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<https://www.nhs.uk/conditions/Chronic-myeloid-leukaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_cell>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Bone_marrow>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Hair>,
+        <http://dbpedia.org/page/Human_skin>,
+        <http://dbpedia.org/page/Redox>,
+        <http://dbpedia.org/page/Stem_cell>,
+        <http://dbpedia.org/page/White_blood_cell> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/NHL_on_Sportsnet>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Bone_pain>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chronic_myelogenous_leukemia>,
+        <http://dbpedia.org/page/Edema>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Hypoplasia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Leukemia>,
+        <http://dbpedia.org/page/Mutation>,
+        <http://dbpedia.org/page/Neurodegeneration>,
+        <http://dbpedia.org/page/Night_sweats>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Philadelphia_chromosome>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Thermoregulation>,
+        <http://dbpedia.org/page/Weight_loss> ;
+    ns2:sameAs <http://dbpedia.org/page/Chronic_myeloid_leukaemia> .
+

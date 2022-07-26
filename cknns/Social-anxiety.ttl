@@ -1,0 +1,132 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antidepressant> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Cognitive_behavioral_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Escitalopram> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Pharmacotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Selective_serotonin_reuptake_inhibitor> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Serotonin> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Sertraline> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Worry> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Adolescence> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Crying> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Eating_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Generalized_anxiety_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Major_depressive_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Management> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Mao_Zedong> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Mental_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Palpitations> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Panic> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Panic_attack> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Panic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Perspiration> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Phobia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Reduced_affect_display> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/Social_anxiety_disorder> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Social-anxiety> .
+
+<http://dbpedia.org/page/ThrustSSC> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Tremor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Social-anxiety> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Eye> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adolescence>,
+        <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Mao_Zedong>,
+        <http://dbpedia.org/page/Parent>,
+        <http://dbpedia.org/page/ThrustSSC> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Perspiration> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Anxiety_disorder>,
+        <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Crying>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Eating_disorder>,
+        <http://dbpedia.org/page/Generalized_anxiety_disorder>,
+        <http://dbpedia.org/page/Heartbeat>,
+        <http://dbpedia.org/page/Major_depressive_disorder>,
+        <http://dbpedia.org/page/Management>,
+        <http://dbpedia.org/page/Mental_disorder>,
+        <http://dbpedia.org/page/Palpitations>,
+        <http://dbpedia.org/page/Panic>,
+        <http://dbpedia.org/page/Panic_attack>,
+        <http://dbpedia.org/page/Panic_disorder>,
+        <http://dbpedia.org/page/Phobia>,
+        <http://dbpedia.org/page/Reduced_affect_display>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Social_anxiety_disorder>,
+        <http://dbpedia.org/page/Tremor> ;
+    ns2:sameAs <http://dbpedia.org/page/Social_anxiety> .
+

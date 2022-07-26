@@ -1,0 +1,138 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Biscuit> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Bread> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Candy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Cereal> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Dessert> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Dipping_sauce> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Glibenclamide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Gliclazide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Glucagon> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Intramuscular_injection> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Language_change> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Nateglinide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Pasta> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Potato> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Repaglinide> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Toast> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Awareness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Binge_drinking> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_sugar> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Blurred_vision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Diabetes_mellitus_type_2> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Dysarthria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hyperkalemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hypoglycemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Learning> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Lip> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pallor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paresthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Snack> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Space> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Take_Care_(album)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Tremor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Very_(Pet_Shop_Boys_album)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> .
+
+<https://www.nhs.uk/conditions/Low-blood-sugar-hypoglycaemia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Lip>,
+        <http://dbpedia.org/page/Snack>,
+        <http://dbpedia.org/page/Stomach> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Learning>,
+        <http://dbpedia.org/page/Take_Care_(album)>,
+        <http://dbpedia.org/page/Very_(Pet_Shop_Boys_album)> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Awareness>,
+        <http://dbpedia.org/page/Binge_drinking>,
+        <http://dbpedia.org/page/Blood_sugar>,
+        <http://dbpedia.org/page/Blurred_vision>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Diabetes_mellitus_type_2>,
+        <http://dbpedia.org/page/Dysarthria>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Heartbeat>,
+        <http://dbpedia.org/page/Hyperkalemia>,
+        <http://dbpedia.org/page/Hypoglycemia>,
+        <http://dbpedia.org/page/Pallor>,
+        <http://dbpedia.org/page/Paresthesia>,
+        <http://dbpedia.org/page/Space>,
+        <http://dbpedia.org/page/Tremor>,
+        <http://dbpedia.org/page/Weakness> ;
+    ns2:sameAs <http://dbpedia.org/page/Low_blood_sugar_hypoglycaemia> .
+

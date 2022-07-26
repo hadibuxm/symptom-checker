@@ -1,0 +1,168 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Cream_(pharmaceutical)> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Ketoconazole> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Malassezia> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Pharmacis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Summer> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Yeast> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Abdomen> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Abdominal_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adolescence> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Burn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Candidiasis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Clothing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Fever> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Human_skin_color> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Humidity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Hyperhidrosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Itch> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Likelihood_function> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Malnutrition> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mycosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neck> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Perspiration> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Pityriasis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rash> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Reproducibility> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tinea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Tinea_versicolor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Upper_gastrointestinal_bleeding> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Pityriasis-versicolor> .
+
+<http://dbpedia.org/page/Xeroderma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Pityriasis-versicolor> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Abdomen>,
+        <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Clothing>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Neck>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Thorax> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adolescence>,
+        <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Death> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Human_skin_color>,
+        <http://dbpedia.org/page/Perspiration> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Abdominal_pain>,
+        <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Burn>,
+        <http://dbpedia.org/page/Candidiasis>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Fever>,
+        <http://dbpedia.org/page/Humidity>,
+        <http://dbpedia.org/page/Hyperhidrosis>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Itch>,
+        <http://dbpedia.org/page/Likelihood_function>,
+        <http://dbpedia.org/page/Malnutrition>,
+        <http://dbpedia.org/page/Mycosis>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pityriasis>,
+        <http://dbpedia.org/page/Rash>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Reproducibility>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Tinea>,
+        <http://dbpedia.org/page/Tinea_versicolor>,
+        <http://dbpedia.org/page/Upper_gastrointestinal_bleeding>,
+        <http://dbpedia.org/page/Xeroderma> ;
+    ns2:sameAs <http://dbpedia.org/page/Pityriasis_versicolor> .
+

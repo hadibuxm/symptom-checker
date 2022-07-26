@@ -1,0 +1,185 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Assistive_cane> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Genetic_testing> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Occupational_therapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Physical_examination> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Typical_antipsychotic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Ataxia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cerebral_palsy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cerebrospinal_fluid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Dementia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Developmental_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dystonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Epilepsy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Foot> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hearing_loss> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hip> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ichthyosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Learning_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Life_expectancy> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Multiple_sclerosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle_tone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myopathy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Optic_nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Optic_neuropathy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Palsy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paraplegia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Penis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Physical_therapy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Retina> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Spasm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Spasticity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Spinal_cord> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stiffness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Toe> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> .
+
+<http://dbpedia.org/page/Xeroderma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hereditary_spastic_paraplegia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Hereditary-spastic-paraplegia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Cerebrospinal_fluid>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Foot>,
+        <http://dbpedia.org/page/Hip>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Human_brain>,
+        <http://dbpedia.org/page/Human_eye>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Muscle_tone>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Optic_nerve>,
+        <http://dbpedia.org/page/Penis>,
+        <http://dbpedia.org/page/Retina>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Spasm>,
+        <http://dbpedia.org/page/Spinal_cord>,
+        <http://dbpedia.org/page/Toe> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Life_expectancy>,
+        <http://dbpedia.org/page/Parent> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Ataxia>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cerebral_palsy>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Dementia>,
+        <http://dbpedia.org/page/Developmental_disability>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Dystonia>,
+        <http://dbpedia.org/page/Epilepsy>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Hearing_loss>,
+        <http://dbpedia.org/page/Hereditary_spastic_paraplegia>,
+        <http://dbpedia.org/page/Ichthyosis>,
+        <http://dbpedia.org/page/Learning_disability>,
+        <http://dbpedia.org/page/Multiple_sclerosis>,
+        <http://dbpedia.org/page/Myopathy>,
+        <http://dbpedia.org/page/Optic_neuropathy>,
+        <http://dbpedia.org/page/Palsy>,
+        <http://dbpedia.org/page/Paraplegia>,
+        <http://dbpedia.org/page/Physical_therapy>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Spasticity>,
+        <http://dbpedia.org/page/Stiffness>,
+        <http://dbpedia.org/page/Weakness>,
+        <http://dbpedia.org/page/Xeroderma> ;
+    ns2:sameAs <http://dbpedia.org/page/Hereditary_spastic_paraplegia> .
+

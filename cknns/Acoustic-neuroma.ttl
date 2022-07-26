@@ -1,0 +1,127 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/General_anaesthetic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/General_surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Hearing_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Neurosurgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Radiation_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Radiosurgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Stereotactic_surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Anus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Ataxia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blurred_vision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysphonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ear> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Face> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Facial_nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Hearing_loss> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypoesthesia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neoplasm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neuroma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Paralysis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Peripheral_neuropathy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Qin_dynasty> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Skull> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tinnitus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Visual_perception> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acoustic-neuroma .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+ns1:Acoustic-neuroma a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Anus>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Ear>,
+        <http://dbpedia.org/page/Face>,
+        <http://dbpedia.org/page/Facial_nerve>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Skull> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Qin_dynasty> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Ataxia>,
+        <http://dbpedia.org/page/Blurred_vision>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Dysphonia>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Hearing_loss>,
+        <http://dbpedia.org/page/Hypoesthesia>,
+        <http://dbpedia.org/page/Neoplasm>,
+        <http://dbpedia.org/page/Neuroma>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Paralysis>,
+        <http://dbpedia.org/page/Peripheral_neuropathy>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Tinnitus>,
+        <http://dbpedia.org/page/Visual_perception>,
+        <http://dbpedia.org/page/Weakness> .
+

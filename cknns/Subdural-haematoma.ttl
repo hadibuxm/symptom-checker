@@ -1,0 +1,170 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Autumn> a <http://dbpedia.org/page/Season> ;
+    ns1:seasonAffectTo <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Warfarin> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Acute_(medicine)> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Acute_radiation_syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Aggression> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Alcohol_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blister> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain_damage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Chronic_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Encephalopathy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Epileptic_seizure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Frailty_syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Go_(game)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Head_injury> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Hematoma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Hematuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Medical_emergency> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Mental_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Mood_swing> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Personality> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Personality_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Skull> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skull_fracture> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Somnolence> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Space> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Stroke> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Subdural_hematoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Tachycardia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Thrombolysis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thrombus> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Traffic_collision> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Subdural-haematoma> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<https://www.nhs.uk/conditions/Subdural-haematoma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Brain>,
+        <http://dbpedia.org/page/Eye>,
+        <http://dbpedia.org/page/Head>,
+        <http://dbpedia.org/page/Human_head>,
+        <http://dbpedia.org/page/Skull>,
+        <http://dbpedia.org/page/Thrombolysis> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Death>,
+        <http://dbpedia.org/page/Go_(game)>,
+        <http://dbpedia.org/page/Personality>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_(medicine)>,
+        <http://dbpedia.org/page/Acute_radiation_syndrome>,
+        <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Aggression>,
+        <http://dbpedia.org/page/Alcohol_abuse>,
+        <http://dbpedia.org/page/Blister>,
+        <http://dbpedia.org/page/Blood_pressure>,
+        <http://dbpedia.org/page/Brain_damage>,
+        <http://dbpedia.org/page/Chronic_condition>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Encephalopathy>,
+        <http://dbpedia.org/page/Epileptic_seizure>,
+        <http://dbpedia.org/page/Frailty_syndrome>,
+        <http://dbpedia.org/page/Head_injury>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Hematoma>,
+        <http://dbpedia.org/page/Hematuria>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Medical_emergency>,
+        <http://dbpedia.org/page/Mental_disorder>,
+        <http://dbpedia.org/page/Mood_swing>,
+        <http://dbpedia.org/page/Personality_disorder>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Skull_fracture>,
+        <http://dbpedia.org/page/Somnolence>,
+        <http://dbpedia.org/page/Space>,
+        <http://dbpedia.org/page/Stroke>,
+        <http://dbpedia.org/page/Subdural_hematoma>,
+        <http://dbpedia.org/page/Tachycardia>,
+        <http://dbpedia.org/page/Thrombus>,
+        <http://dbpedia.org/page/Traffic_collision> ;
+    ns2:sameAs <http://dbpedia.org/page/Subdural_haematoma> .
+

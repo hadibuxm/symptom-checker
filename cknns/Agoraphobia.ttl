@@ -1,0 +1,155 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Caffeine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Coffee> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Cognitive_behavioral_therapy> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Cola> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Focusing> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Pharmacotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Psychiatric_medication> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Psychoactive_drug> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Psychotherapy> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Relaxation_technique> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Reuptake_inhibitor> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Selective_serotonin_reuptake_inhibitor> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Serotonin> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Tea> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Therapis> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Agoraphobia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Alcohol_abuse> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Anxiety_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Atmospheric_pressure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bipolar_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Combat_readiness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Deep> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Drug_withdrawal> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Eating_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Major_depressive_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Major_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Man> a <http://dbpedia.org/page/Category:Sex> .
+
+<http://dbpedia.org/page/Mental_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Minority> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Moment> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Panic> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Panic_attack> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Panic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Side_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Agoraphobia .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+ns1:Agoraphobia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Breathing> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Man>,
+        <http://dbpedia.org/page/Parent>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Agoraphobia>,
+        <http://dbpedia.org/page/Alcohol_abuse>,
+        <http://dbpedia.org/page/Anxiety>,
+        <http://dbpedia.org/page/Anxiety_disorder>,
+        <http://dbpedia.org/page/Atmospheric_pressure>,
+        <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Bipolar_disorder>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Combat_readiness>,
+        <http://dbpedia.org/page/Deep>,
+        <http://dbpedia.org/page/Drug_withdrawal>,
+        <http://dbpedia.org/page/Eating_disorder>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Major_depressive_disorder>,
+        <http://dbpedia.org/page/Major_trauma>,
+        <http://dbpedia.org/page/Mental_disorder>,
+        <http://dbpedia.org/page/Minority>,
+        <http://dbpedia.org/page/Moment>,
+        <http://dbpedia.org/page/Panic>,
+        <http://dbpedia.org/page/Panic_attack>,
+        <http://dbpedia.org/page/Panic_disorder>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Side_effect> .
+

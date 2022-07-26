@@ -1,0 +1,216 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Antibiotics> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Diving_mask> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Feeding_tube> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Mechanical_ventilation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Medical_ultrasound> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Nasogastric_intubation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Physical_examination> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Pulse_oximetry> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Acute_pancreatitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_respiratory_distress_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Bacterial_pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_vessel> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Brain_damage> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Breathing> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chest_injury> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Complications_of_pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Confusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Creativity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Death> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Drowning> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Ear> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Finger> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Heart> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Inflammation> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Influenza> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Leaf> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Lung> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Major_depressive_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Major_trauma> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Mental_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Myalgia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nose> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pancreas> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pleural_effusion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pneumonia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pneumonitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Posttraumatic_stress_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pulmonary_edema> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Respiratory_failure> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Sepsis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Sequela> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Shortness_of_breath> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tachycardia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Toe> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Toxicity> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Vomiting> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-respiratory-distress-syndrome .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+ns1:Acute-respiratory-distress-syndrome a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_vessel>,
+        <http://dbpedia.org/page/Breathing>,
+        <http://dbpedia.org/page/Ear>,
+        <http://dbpedia.org/page/Finger>,
+        <http://dbpedia.org/page/Heart>,
+        <http://dbpedia.org/page/Leaf>,
+        <http://dbpedia.org/page/Lung>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Nose>,
+        <http://dbpedia.org/page/Pancreas>,
+        <http://dbpedia.org/page/Stomach>,
+        <http://dbpedia.org/page/Throat>,
+        <http://dbpedia.org/page/Toe> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Death> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Inflammation> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_pancreatitis>,
+        <http://dbpedia.org/page/Acute_respiratory_distress_syndrome>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Bacterial_pneumonia>,
+        <http://dbpedia.org/page/Brain_damage>,
+        <http://dbpedia.org/page/Chest_injury>,
+        <http://dbpedia.org/page/Complications_of_pregnancy>,
+        <http://dbpedia.org/page/Confusion>,
+        <http://dbpedia.org/page/Creativity>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Drowning>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Influenza>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Major_depressive_disorder>,
+        <http://dbpedia.org/page/Major_trauma>,
+        <http://dbpedia.org/page/Mental_disorder>,
+        <http://dbpedia.org/page/Myalgia>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pleural_effusion>,
+        <http://dbpedia.org/page/Pneumonia>,
+        <http://dbpedia.org/page/Pneumonitis>,
+        <http://dbpedia.org/page/Posttraumatic_stress_disorder>,
+        <http://dbpedia.org/page/Pulmonary_edema>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Respiratory_failure>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Sepsis>,
+        <http://dbpedia.org/page/Sequela>,
+        <http://dbpedia.org/page/Shortness_of_breath>,
+        <http://dbpedia.org/page/Tachycardia>,
+        <http://dbpedia.org/page/Toxicity>,
+        <http://dbpedia.org/page/Vomiting>,
+        <http://dbpedia.org/page/Weakness> .
+

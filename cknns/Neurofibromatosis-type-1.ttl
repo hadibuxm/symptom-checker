@@ -1,0 +1,173 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Blood_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Coffee> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Medical_test> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Person> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Typical_antipsychotic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Amniocentesis> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Axilla> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone_marrow> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Breast> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Careful> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Childbirth> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Diabetes_mellitus> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Early_childhood> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Egg_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Erectile_dysfunction> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Father> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Freckle> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Groin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_eye> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Hypertension> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Learning_disability> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Life_expectancy> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Management> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Mother> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Neoplasm> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nervous_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Neurofibroma> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neurofibromatosis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Neurofibromatosis_type_I> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Only_(Nine_Inch_Nails_song)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pallor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Parent> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Physical_therapy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pregnancy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Social_support> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Neurofibromatosis-type-1> .
+
+<http://dbpedia.org/page/Sperm> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<https://www.nhs.uk/conditions/Neurofibromatosis-type-1> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Amniocentesis>,
+        <http://dbpedia.org/page/Axilla>,
+        <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Bone_marrow>,
+        <http://dbpedia.org/page/Breast>,
+        <http://dbpedia.org/page/Egg_cell>,
+        <http://dbpedia.org/page/Groin>,
+        <http://dbpedia.org/page/Human_eye>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Nervous_system>,
+        <http://dbpedia.org/page/Skin> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Child>,
+        <http://dbpedia.org/page/Childhood>,
+        <http://dbpedia.org/page/Early_childhood>,
+        <http://dbpedia.org/page/Father>,
+        <http://dbpedia.org/page/Infant>,
+        <http://dbpedia.org/page/Life_expectancy>,
+        <http://dbpedia.org/page/Mother>,
+        <http://dbpedia.org/page/Only_(Nine_Inch_Nails_song)>,
+        <http://dbpedia.org/page/Parent>,
+        <http://dbpedia.org/page/Sperm>,
+        <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Careful>,
+        <http://dbpedia.org/page/Childbirth>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Diabetes_mellitus>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Erectile_dysfunction>,
+        <http://dbpedia.org/page/Freckle>,
+        <http://dbpedia.org/page/Hypertension>,
+        <http://dbpedia.org/page/Learning_disability>,
+        <http://dbpedia.org/page/Management>,
+        <http://dbpedia.org/page/Neoplasm>,
+        <http://dbpedia.org/page/Neurofibroma>,
+        <http://dbpedia.org/page/Neurofibromatosis>,
+        <http://dbpedia.org/page/Neurofibromatosis_type_I>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Pallor>,
+        <http://dbpedia.org/page/Physical_therapy>,
+        <http://dbpedia.org/page/Pregnancy>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Social_support> ;
+    ns2:sameAs <http://dbpedia.org/page/Neurofibromatosis_type_1> .
+

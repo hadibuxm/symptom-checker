@@ -1,0 +1,191 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Botulinum_toxin> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Achalasia .
+
+<http://dbpedia.org/page/CT_scan> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Achalasia .
+
+<http://dbpedia.org/page/General_anaesthetic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Achalasia .
+
+<http://dbpedia.org/page/Nifedipine> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Achalasia .
+
+<http://dbpedia.org/page/Relaxation_technique> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Achalasia .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo ns1:Achalasia .
+
+<http://dbpedia.org/page/Thes> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo ns1:Achalasia .
+
+<http://dbpedia.org/page/Tracheal_tube> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Achalasia .
+
+<http://dbpedia.org/page/Achalasia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Angina_pectoris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Antigen-presenting_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Autoimmune_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Catheter> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Chest_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Choking> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Convulsion> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cough> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Cutting> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Digestion> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Drooling> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dysphagia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Esophageal_cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Esophagus> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Gastric_acid> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Gastroesophageal_reflux_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Headache> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Heartburn> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Hernia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Inflation> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Lymphatic_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Medical_emergency> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Mouth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nerve> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nose> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Permanent_teeth> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Referred_pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Reproducibility> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Saliva> a <http://dbpedia.org/page/Category:Human_physiology> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Skeletal_muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tears> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Thin_film> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Thorax> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Throat> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Viral_disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Vomiting> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Walter_Read> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Weight_loss> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Achalasia .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+ns1:Achalasia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Antigen-presenting_cell>,
+        <http://dbpedia.org/page/Catheter>,
+        <http://dbpedia.org/page/Digestion>,
+        <http://dbpedia.org/page/Esophagus>,
+        <http://dbpedia.org/page/Gastric_acid>,
+        <http://dbpedia.org/page/Lymphatic_system>,
+        <http://dbpedia.org/page/Mouth>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Nerve>,
+        <http://dbpedia.org/page/Nose>,
+        <http://dbpedia.org/page/Permanent_teeth>,
+        <http://dbpedia.org/page/Skeletal_muscle>,
+        <http://dbpedia.org/page/Stomach>,
+        <http://dbpedia.org/page/Thin_film>,
+        <http://dbpedia.org/page/Thorax>,
+        <http://dbpedia.org/page/Throat> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Walter_Read> ;
+    ns1:causesPhysiology <http://dbpedia.org/page/Saliva> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Achalasia>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Angina_pectoris>,
+        <http://dbpedia.org/page/Autoimmune_disease>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chest_pain>,
+        <http://dbpedia.org/page/Choking>,
+        <http://dbpedia.org/page/Convulsion>,
+        <http://dbpedia.org/page/Cough>,
+        <http://dbpedia.org/page/Cutting>,
+        <http://dbpedia.org/page/Drooling>,
+        <http://dbpedia.org/page/Dysphagia>,
+        <http://dbpedia.org/page/Esophageal_cancer>,
+        <http://dbpedia.org/page/Gastroesophageal_reflux_disease>,
+        <http://dbpedia.org/page/Headache>,
+        <http://dbpedia.org/page/Heartburn>,
+        <http://dbpedia.org/page/Hernia>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Inflation>,
+        <http://dbpedia.org/page/Medical_emergency>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Referred_pain>,
+        <http://dbpedia.org/page/Reproducibility>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Tears>,
+        <http://dbpedia.org/page/Viral_disease>,
+        <http://dbpedia.org/page/Vomiting>,
+        <http://dbpedia.org/page/Weight_loss> .
+

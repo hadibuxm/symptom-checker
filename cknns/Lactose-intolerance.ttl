@@ -1,0 +1,170 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Almond_milk> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Bacteria> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Biscuit> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Boiled_egg> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Bread> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Breakfast> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Breakfast_cereal> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Broccoli> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Cabbage> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Cake> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Ceratonia_siliqua> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Cereal> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Cheese> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Chocolate> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Coffee> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Dairy_product> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Ham> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Instant_soup> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Mayonnaise> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Oat> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Okra> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Pancake> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Potato> a <http://dbpedia.org/ontology/Species> ;
+    ns1:SpeciesCausesTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Salad> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Salad_cream> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Soup> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Tea> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Adult> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Adverse_drug_reaction> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Ageing> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Allergy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Avoidance_coping> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Circulatory_system> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cramp> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Diarrhea> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Digestion> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Food_allergy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Heartbeat> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infant> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Irritable_bowel_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Milk_allergy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Permanent> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Lactose-intolerance> .
+
+<http://dbpedia.org/page/Proteinuria> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Stomach> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Stomach_rumble> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lactose_intolerance> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Lactose-intolerance> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Circulatory_system>,
+        <http://dbpedia.org/page/Cramp>,
+        <http://dbpedia.org/page/Digestion>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Stomach> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Adult>,
+        <http://dbpedia.org/page/Ageing>,
+        <http://dbpedia.org/page/Infant> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adverse_drug_reaction>,
+        <http://dbpedia.org/page/Allergy>,
+        <http://dbpedia.org/page/Avoidance_coping>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Diarrhea>,
+        <http://dbpedia.org/page/Food_allergy>,
+        <http://dbpedia.org/page/Heartbeat>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Irritable_bowel_syndrome>,
+        <http://dbpedia.org/page/Lactose_intolerance>,
+        <http://dbpedia.org/page/Milk_allergy>,
+        <http://dbpedia.org/page/Permanent>,
+        <http://dbpedia.org/page/Proteinuria>,
+        <http://dbpedia.org/page/Stomach_rumble> ;
+    ns2:sameAs <http://dbpedia.org/page/Lactose_intolerance> .
+

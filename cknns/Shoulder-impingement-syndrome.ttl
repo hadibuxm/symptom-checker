@@ -1,0 +1,144 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix ns2: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/General_anaesthetic> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Intramuscular_injection> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Medroxyprogesterone_acetate> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Surgery> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/While> a <http://dbpedia.org/page/Therapy> ;
+    ns1:treatmentTo <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Acromion> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Adhesive_capsulitis_of_shoulder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Adverse_effect> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Anterior_cruciate_ligament_injury> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Arm> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Bursitis> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Cuff> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cutaneous_condition> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Decompression_sickness> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Dimple> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Go_(game)> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Human_head> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Impingement_syndrome> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Muscle> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Neutral_spine> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Physical_therapy> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Repetitive_strain_injury> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Reproducibility> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Rotator_cuff> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Rotator_cuff_tear> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Shoulder> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Shoulder_joint> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Skin> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Space> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Stenosis> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Stiffness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Synovial_bursa> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Tendon> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Weakness> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease <https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> .
+
+<http://dbpedia.org/page/Wound> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Shoulder-impingement-syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Acromion>,
+        <http://dbpedia.org/page/Arm>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Cuff>,
+        <http://dbpedia.org/page/Dimple>,
+        <http://dbpedia.org/page/Head>,
+        <http://dbpedia.org/page/Human_head>,
+        <http://dbpedia.org/page/Joint>,
+        <http://dbpedia.org/page/Muscle>,
+        <http://dbpedia.org/page/Rotator_cuff>,
+        <http://dbpedia.org/page/Shoulder>,
+        <http://dbpedia.org/page/Shoulder_joint>,
+        <http://dbpedia.org/page/Skin>,
+        <http://dbpedia.org/page/Synovial_bursa>,
+        <http://dbpedia.org/page/Tendon> ;
+    ns1:causesAffectionToAgeGroup <http://dbpedia.org/page/Go_(game)> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Adhesive_capsulitis_of_shoulder>,
+        <http://dbpedia.org/page/Adverse_effect>,
+        <http://dbpedia.org/page/Anterior_cruciate_ligament_injury>,
+        <http://dbpedia.org/page/Bursitis>,
+        <http://dbpedia.org/page/Cutaneous_condition>,
+        <http://dbpedia.org/page/Decompression_sickness>,
+        <http://dbpedia.org/page/Impingement_syndrome>,
+        <http://dbpedia.org/page/Injury>,
+        <http://dbpedia.org/page/Neutral_spine>,
+        <http://dbpedia.org/page/Pain>,
+        <http://dbpedia.org/page/Physical_therapy>,
+        <http://dbpedia.org/page/Repetitive_strain_injury>,
+        <http://dbpedia.org/page/Reproducibility>,
+        <http://dbpedia.org/page/Rotator_cuff_tear>,
+        <http://dbpedia.org/page/Schizophrenia>,
+        <http://dbpedia.org/page/Space>,
+        <http://dbpedia.org/page/Stenosis>,
+        <http://dbpedia.org/page/Stiffness>,
+        <http://dbpedia.org/page/Weakness>,
+        <http://dbpedia.org/page/Wound> ;
+    ns2:sameAs <http://dbpedia.org/page/Shoulder_impingement_syndrome> .
+

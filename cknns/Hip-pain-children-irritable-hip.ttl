@@ -1,0 +1,22 @@
+@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix ns2: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/While> a <http://dbpedia.org/page/Therapy> ;
+    ns2:treatmentTo <https://www.nhs.uk/conditions/Hip-pain-children-irritable-hip> .
+
+<http://dbpedia.org/page/Child> a <http://dbpedia.org/page/Category:Human_development> .
+
+<http://dbpedia.org/page/Hip> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Pain> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<https://www.nhs.uk/conditions/Hip-pain-children-irritable-hip> a <http://dbpedia.org/ontology/Disease> ;
+    ns2:causeOnAnatomicStructure <http://dbpedia.org/page/Hip> ;
+    ns2:causesAffectionToAgeGroup <http://dbpedia.org/page/Child> ;
+    ns2:causesSymptom <http://dbpedia.org/page/Pain> ;
+    ns1:sameAs <http://dbpedia.org/page/Hip_pain_children_irritable_hip> .
+

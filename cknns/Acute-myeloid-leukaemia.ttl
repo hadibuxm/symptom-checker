@@ -1,0 +1,112 @@
+@prefix ns1: <http://nhscausalknowledgegraph.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/page/Bone_marrow_examination> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Chemotherapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Combination_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Hematopoietic_stem_cell_transplantation> a <http://dbpedia.org/page/Medical_diagnosis> ;
+    ns1:diagnosisTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Radiation_therapy> a <http://dbpedia.org/ontology/Drug> ;
+    ns1:drugTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Tobacco_smoking> a <http://dbpedia.org/page/Category:Habits> ;
+    ns1:HabitCausesTo ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Acute_lymphoblastic_leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_myeloid_leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Acute_radiation_syndrome> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Aggression> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/B-cell_chronic_lymphocytic_leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bleeding> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Blood> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Body> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Bone> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Cancer> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Chronic_myelogenous_leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Disease> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Genetic_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Human_body> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Infection> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Leukemia> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Lymphocyte> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Myeloid_tissue> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Nosebleed> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Pallor> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Rare_disease> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> .
+
+<http://dbpedia.org/page/Relapse> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/Schizophrenia> a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causesDisease ns1:Acute-myeloid-leukaemia .
+
+<http://dbpedia.org/page/White_blood_cell> a <http://dbpedia.org/ontology/AnatomicalStructure> .
+
+<http://dbpedia.org/page/Medical_diagnosis> ns1:diagnosisTo <http://dbpedia.org/ontology/Disease> .
+
+ns1:Acute-myeloid-leukaemia a <http://dbpedia.org/ontology/Disease> ;
+    ns1:causeOnAnatomicStructure <http://dbpedia.org/page/Blood>,
+        <http://dbpedia.org/page/Blood_cell>,
+        <http://dbpedia.org/page/Bone>,
+        <http://dbpedia.org/page/Human_body>,
+        <http://dbpedia.org/page/Myeloid_tissue>,
+        <http://dbpedia.org/page/White_blood_cell> ;
+    ns1:causesSymptom <http://dbpedia.org/page/Acute_lymphoblastic_leukemia>,
+        <http://dbpedia.org/page/Acute_myeloid_leukemia>,
+        <http://dbpedia.org/page/Acute_radiation_syndrome>,
+        <http://dbpedia.org/page/Aggression>,
+        <http://dbpedia.org/page/B-cell_chronic_lymphocytic_leukemia>,
+        <http://dbpedia.org/page/Bleeding>,
+        <http://dbpedia.org/page/Body>,
+        <http://dbpedia.org/page/Cancer>,
+        <http://dbpedia.org/page/Chronic_myelogenous_leukemia>,
+        <http://dbpedia.org/page/Disease>,
+        <http://dbpedia.org/page/Genetic_disorder>,
+        <http://dbpedia.org/page/Infection>,
+        <http://dbpedia.org/page/Leukemia>,
+        <http://dbpedia.org/page/Lymphocyte>,
+        <http://dbpedia.org/page/Nosebleed>,
+        <http://dbpedia.org/page/Pallor>,
+        <http://dbpedia.org/page/Rare_disease>,
+        <http://dbpedia.org/page/Relapse>,
+        <http://dbpedia.org/page/Schizophrenia> .
+
